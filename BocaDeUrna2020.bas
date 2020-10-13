@@ -1,19 +1,17 @@
 Attribute VB_Name = "BocaDeUrna2020"
 
 Sub AlgarismosParaNumExtensoAtasBocaDeUrna2020()
-Attribute AlgarismosParaNumExtensoAtasBocaDeUrna2020.VB_Description = "Remove n�meros de 0 a 9 alinhados a esquerda, direita ou justificados para tratamento de atas no projeto Boca de Urna 2020."
+Attribute AlgarismosParaNumExtensoAtasBocaDeUrna2020.VB_Description = "Remove números de 0 a 9 alinhados a esquerda, direita ou justificados para tratamento de atas no projeto Boca de Urna 2020."
 Attribute AlgarismosParaNumExtensoAtasBocaDeUrna2020.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.RemoverNumerosExcetoCentralizados"
 '
 ' AlgarismosParaNumExtensoAtasBocaDeUrna2020 Macro
-' Altera algarismos de 01 a 99 do t�tulo das atas para n�meros por extenso para tratamento de atas no projeto Boca de Urna 2020.
-' Rascunho
-' Usado nas atas de 2019 e 2020
+' Altera algarismos de 01 a 99 do título das atas para números por extenso para tratamento de atas no projeto Boca de Urna 2020.
 '
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
 With Selection.Find
-    .Text = "ATA n� 01/"
-    .Replacement.Text = "ATA n� um/"
+    .Text = "ATA nº 01/"
+    .Replacement.Text = "ATA nº um/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -25,8 +23,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 02/"
-    .Replacement.Text = "ATA n� dois/"
+    .Text = "ATA nº 02/"
+    .Replacement.Text = "ATA nº dois/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -38,8 +36,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 03/"
-    .Replacement.Text = "ATA n� tr�s/"
+    .Text = "ATA nº 03/"
+    .Replacement.Text = "ATA nº três/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -51,8 +49,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 04/"
-    .Replacement.Text = "ATA n� quatro/"
+    .Text = "ATA nº 04/"
+    .Replacement.Text = "ATA nº quatro/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -64,8 +62,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 05/"
-    .Replacement.Text = "ATA n� cinco/"
+    .Text = "ATA nº 05/"
+    .Replacement.Text = "ATA nº cinco/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -77,8 +75,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 06/"
-    .Replacement.Text = "ATA n� seis/"
+    .Text = "ATA nº 06/"
+    .Replacement.Text = "ATA nº seis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -90,8 +88,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 07/"
-    .Replacement.Text = "ATA n� sete/"
+    .Text = "ATA nº 07/"
+    .Replacement.Text = "ATA nº sete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -103,8 +101,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 08/"
-    .Replacement.Text = "ATA n� oito/"
+    .Text = "ATA nº 08/"
+    .Replacement.Text = "ATA nº oito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -116,8 +114,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 09/"
-    .Replacement.Text = "ATA n� nove/"
+    .Text = "ATA nº 09/"
+    .Replacement.Text = "ATA nº nove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -129,8 +127,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 10/"
-    .Replacement.Text = "ATA n� dez/"
+    .Text = "ATA nº 10/"
+    .Replacement.Text = "ATA nº dez/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -142,8 +140,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 11/"
-    .Replacement.Text = "ATA n� onze/"
+    .Text = "ATA nº 11/"
+    .Replacement.Text = "ATA nº onze/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -155,8 +153,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 12/"
-    .Replacement.Text = "ATA n� doze/"
+    .Text = "ATA nº 12/"
+    .Replacement.Text = "ATA nº doze/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -168,8 +166,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 13/"
-    .Replacement.Text = "ATA n� treze/"
+    .Text = "ATA nº 13/"
+    .Replacement.Text = "ATA nº treze/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -181,8 +179,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 14/"
-    .Replacement.Text = "ATA n� quatorze/"
+    .Text = "ATA nº 14/"
+    .Replacement.Text = "ATA nº quatorze/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -194,8 +192,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 15/"
-    .Replacement.Text = "ATA n� quinze/"
+    .Text = "ATA nº 15/"
+    .Replacement.Text = "ATA nº quinze/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -207,8 +205,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 16/"
-    .Replacement.Text = "ATA n� dezesseis/"
+    .Text = "ATA nº 16/"
+    .Replacement.Text = "ATA nº dezesseis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -220,8 +218,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 17/"
-    .Replacement.Text = "ATA n� dezessete/"
+    .Text = "ATA nº 17/"
+    .Replacement.Text = "ATA nº dezessete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -233,8 +231,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 18/"
-    .Replacement.Text = "ATA n� dezoito/"
+    .Text = "ATA nº 18/"
+    .Replacement.Text = "ATA nº dezoito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -246,8 +244,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 19/"
-    .Replacement.Text = "ATA n� dezenove/"
+    .Text = "ATA nº 19/"
+    .Replacement.Text = "ATA nº dezenove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -259,8 +257,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 20/"
-    .Replacement.Text = "ATA n� vinte/"
+    .Text = "ATA nº 20/"
+    .Replacement.Text = "ATA nº vinte/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -272,8 +270,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 21/"
-    .Replacement.Text = "ATA n� vinte e um/"
+    .Text = "ATA nº 21/"
+    .Replacement.Text = "ATA nº vinte e um/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -285,8 +283,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 22/"
-    .Replacement.Text = "ATA n� vinte e dois/"
+    .Text = "ATA nº 22/"
+    .Replacement.Text = "ATA nº vinte e dois/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -298,8 +296,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 23/"
-    .Replacement.Text = "ATA n� vinte e tr�s/"
+    .Text = "ATA nº 23/"
+    .Replacement.Text = "ATA nº vinte e três/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -311,8 +309,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 24/"
-    .Replacement.Text = "ATA n� vinte e quatro/"
+    .Text = "ATA nº 24/"
+    .Replacement.Text = "ATA nº vinte e quatro/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -324,8 +322,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 25/"
-    .Replacement.Text = "ATA n� vinte e cinco/"
+    .Text = "ATA nº 25/"
+    .Replacement.Text = "ATA nº vinte e cinco/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -337,8 +335,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 26/"
-    .Replacement.Text = "ATA n� vinte e seis/"
+    .Text = "ATA nº 26/"
+    .Replacement.Text = "ATA nº vinte e seis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -350,8 +348,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 27/"
-    .Replacement.Text = "ATA n� vinte e sete/"
+    .Text = "ATA nº 27/"
+    .Replacement.Text = "ATA nº vinte e sete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -363,8 +361,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 28/"
-    .Replacement.Text = "ATA n� vinte e oito/"
+    .Text = "ATA nº 28/"
+    .Replacement.Text = "ATA nº vinte e oito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -376,8 +374,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 29/"
-    .Replacement.Text = "ATA n� vinte e nove/"
+    .Text = "ATA nº 29/"
+    .Replacement.Text = "ATA nº vinte e nove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -389,8 +387,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 30/"
-    .Replacement.Text = "ATA n� trinta/"
+    .Text = "ATA nº 30/"
+    .Replacement.Text = "ATA nº trinta/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -402,8 +400,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 31/"
-    .Replacement.Text = "ATA n� trinta e um/"
+    .Text = "ATA nº 31/"
+    .Replacement.Text = "ATA nº trinta e um/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -415,8 +413,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 32/"
-    .Replacement.Text = "ATA n� trinta e dois/"
+    .Text = "ATA nº 32/"
+    .Replacement.Text = "ATA nº trinta e dois/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -428,8 +426,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 33/"
-    .Replacement.Text = "ATA n� trinta e tr�s/"
+    .Text = "ATA nº 33/"
+    .Replacement.Text = "ATA nº trinta e três/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -441,8 +439,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 34/"
-    .Replacement.Text = "ATA n� trinta e quatro/"
+    .Text = "ATA nº 34/"
+    .Replacement.Text = "ATA nº trinta e quatro/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -454,8 +452,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 35/"
-    .Replacement.Text = "ATA n� trinta e cinco/"
+    .Text = "ATA nº 35/"
+    .Replacement.Text = "ATA nº trinta e cinco/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -467,8 +465,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 36/"
-    .Replacement.Text = "ATA n� trinta e seis/"
+    .Text = "ATA nº 36/"
+    .Replacement.Text = "ATA nº trinta e seis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -480,8 +478,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 37/"
-    .Replacement.Text = "ATA n� trinta e sete/"
+    .Text = "ATA nº 37/"
+    .Replacement.Text = "ATA nº trinta e sete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -493,8 +491,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 38/"
-    .Replacement.Text = "ATA n� trinta e oito/"
+    .Text = "ATA nº 38/"
+    .Replacement.Text = "ATA nº trinta e oito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -506,8 +504,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 39/"
-    .Replacement.Text = "ATA n� trinta e nove/"
+    .Text = "ATA nº 39/"
+    .Replacement.Text = "ATA nº trinta e nove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -519,8 +517,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 40/"
-    .Replacement.Text = "ATA n� quarenta/"
+    .Text = "ATA nº 40/"
+    .Replacement.Text = "ATA nº quarenta/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -532,8 +530,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 41/"
-    .Replacement.Text = "ATA n� quarenta e um/"
+    .Text = "ATA nº 41/"
+    .Replacement.Text = "ATA nº quarenta e um/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -545,8 +543,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 42/"
-    .Replacement.Text = "ATA n� quarenta e dois/"
+    .Text = "ATA nº 42/"
+    .Replacement.Text = "ATA nº quarenta e dois/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -558,8 +556,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 43/"
-    .Replacement.Text = "ATA n� quarenta e tr�s/"
+    .Text = "ATA nº 43/"
+    .Replacement.Text = "ATA nº quarenta e três/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -571,8 +569,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 44/"
-    .Replacement.Text = "ATA n� quarenta e quatro/"
+    .Text = "ATA nº 44/"
+    .Replacement.Text = "ATA nº quarenta e quatro/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -584,8 +582,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 45/"
-    .Replacement.Text = "ATA n� quarenta e cinco/"
+    .Text = "ATA nº 45/"
+    .Replacement.Text = "ATA nº quarenta e cinco/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -597,8 +595,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 46/"
-    .Replacement.Text = "ATA n� quarenta e seis/"
+    .Text = "ATA nº 46/"
+    .Replacement.Text = "ATA nº quarenta e seis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -610,8 +608,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 47/"
-    .Replacement.Text = "ATA n� quarenta e sete/"
+    .Text = "ATA nº 47/"
+    .Replacement.Text = "ATA nº quarenta e sete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -623,8 +621,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 48/"
-    .Replacement.Text = "ATA n� quarenta e oito/"
+    .Text = "ATA nº 48/"
+    .Replacement.Text = "ATA nº quarenta e oito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -636,8 +634,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 49/"
-    .Replacement.Text = "ATA n� quarenta e nove/"
+    .Text = "ATA nº 49/"
+    .Replacement.Text = "ATA nº quarenta e nove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -649,8 +647,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 50/"
-    .Replacement.Text = "ATA n� cinquenta/"
+    .Text = "ATA nº 50/"
+    .Replacement.Text = "ATA nº cinquenta/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -662,8 +660,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 51/"
-    .Replacement.Text = "ATA n� cinquenta e um/"
+    .Text = "ATA nº 51/"
+    .Replacement.Text = "ATA nº cinquenta e um/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -675,8 +673,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 52/"
-    .Replacement.Text = "ATA n� cinquenta e dois/"
+    .Text = "ATA nº 52/"
+    .Replacement.Text = "ATA nº cinquenta e dois/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -688,8 +686,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 53/"
-    .Replacement.Text = "ATA n� cinquenta e tr�s/"
+    .Text = "ATA nº 53/"
+    .Replacement.Text = "ATA nº cinquenta e três/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -701,8 +699,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 54/"
-    .Replacement.Text = "ATA n� cinquenta e quatro/"
+    .Text = "ATA nº 54/"
+    .Replacement.Text = "ATA nº cinquenta e quatro/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -714,8 +712,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 55/"
-    .Replacement.Text = "ATA n� cinquenta e cinco/"
+    .Text = "ATA nº 55/"
+    .Replacement.Text = "ATA nº cinquenta e cinco/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -727,8 +725,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 56/"
-    .Replacement.Text = "ATA n� cinquenta e seis/"
+    .Text = "ATA nº 56/"
+    .Replacement.Text = "ATA nº cinquenta e seis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -740,8 +738,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 57/"
-    .Replacement.Text = "ATA n� cinquenta e sete/"
+    .Text = "ATA nº 57/"
+    .Replacement.Text = "ATA nº cinquenta e sete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -753,8 +751,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 58/"
-    .Replacement.Text = "ATA n� cinquenta e oito/"
+    .Text = "ATA nº 58/"
+    .Replacement.Text = "ATA nº cinquenta e oito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -766,8 +764,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 59/"
-    .Replacement.Text = "ATA n� cinquenta e nove/"
+    .Text = "ATA nº 59/"
+    .Replacement.Text = "ATA nº cinquenta e nove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -779,8 +777,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 60/"
-    .Replacement.Text = "ATA n� sessenta/"
+    .Text = "ATA nº 60/"
+    .Replacement.Text = "ATA nº sessenta/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -792,8 +790,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 61/"
-    .Replacement.Text = "ATA n� sessenta e um/"
+    .Text = "ATA nº 61/"
+    .Replacement.Text = "ATA nº sessenta e um/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -805,8 +803,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 62/"
-    .Replacement.Text = "ATA n� sessenta e dois/"
+    .Text = "ATA nº 62/"
+    .Replacement.Text = "ATA nº sessenta e dois/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -818,8 +816,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 63/"
-    .Replacement.Text = "ATA n� sessenta e tr�s/"
+    .Text = "ATA nº 63/"
+    .Replacement.Text = "ATA nº sessenta e três/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -831,8 +829,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 64/"
-    .Replacement.Text = "ATA n� sessenta e quatro/"
+    .Text = "ATA nº 64/"
+    .Replacement.Text = "ATA nº sessenta e quatro/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -844,8 +842,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 65/"
-    .Replacement.Text = "ATA n� sessenta e cinco/"
+    .Text = "ATA nº 65/"
+    .Replacement.Text = "ATA nº sessenta e cinco/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -857,8 +855,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 66/"
-    .Replacement.Text = "ATA n� sessenta e seis/"
+    .Text = "ATA nº 66/"
+    .Replacement.Text = "ATA nº sessenta e seis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -870,8 +868,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 67/"
-    .Replacement.Text = "ATA n� sessenta e sete/"
+    .Text = "ATA nº 67/"
+    .Replacement.Text = "ATA nº sessenta e sete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -883,8 +881,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 68/"
-    .Replacement.Text = "ATA n� sessenta e oito/"
+    .Text = "ATA nº 68/"
+    .Replacement.Text = "ATA nº sessenta e oito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -896,8 +894,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 69/"
-    .Replacement.Text = "ATA n� sessenta e nove/"
+    .Text = "ATA nº 69/"
+    .Replacement.Text = "ATA nº sessenta e nove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -909,8 +907,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 70/"
-    .Replacement.Text = "ATA n� setenta/"
+    .Text = "ATA nº 70/"
+    .Replacement.Text = "ATA nº setenta/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -922,8 +920,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 71/"
-    .Replacement.Text = "ATA n� setenta e um/"
+    .Text = "ATA nº 71/"
+    .Replacement.Text = "ATA nº setenta e um/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -935,8 +933,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 72/"
-    .Replacement.Text = "ATA n� setenta e dois/"
+    .Text = "ATA nº 72/"
+    .Replacement.Text = "ATA nº setenta e dois/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -948,8 +946,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 73/"
-    .Replacement.Text = "ATA n� setenta e tr�s/"
+    .Text = "ATA nº 73/"
+    .Replacement.Text = "ATA nº setenta e três/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -961,8 +959,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 74/"
-    .Replacement.Text = "ATA n� setenta e quatro/"
+    .Text = "ATA nº 74/"
+    .Replacement.Text = "ATA nº setenta e quatro/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -974,8 +972,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 75/"
-    .Replacement.Text = "ATA n� setenta e cinco/"
+    .Text = "ATA nº 75/"
+    .Replacement.Text = "ATA nº setenta e cinco/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -987,8 +985,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 76/"
-    .Replacement.Text = "ATA n� setenta e seis/"
+    .Text = "ATA nº 76/"
+    .Replacement.Text = "ATA nº setenta e seis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1000,8 +998,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 77/"
-    .Replacement.Text = "ATA n� setenta e sete/"
+    .Text = "ATA nº 77/"
+    .Replacement.Text = "ATA nº setenta e sete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1013,8 +1011,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 78/"
-    .Replacement.Text = "ATA n� setenta e oito/"
+    .Text = "ATA nº 78/"
+    .Replacement.Text = "ATA nº setenta e oito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1026,8 +1024,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 79/"
-    .Replacement.Text = "ATA n� setenta e nove/"
+    .Text = "ATA nº 79/"
+    .Replacement.Text = "ATA nº setenta e nove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1039,8 +1037,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 80/"
-    .Replacement.Text = "ATA n� oitenta/"
+    .Text = "ATA nº 80/"
+    .Replacement.Text = "ATA nº oitenta/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1052,8 +1050,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 81/"
-    .Replacement.Text = "ATA n� oitenta e um/"
+    .Text = "ATA nº 81/"
+    .Replacement.Text = "ATA nº oitenta e um/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1065,8 +1063,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 82/"
-    .Replacement.Text = "ATA n� oitenta e dois/"
+    .Text = "ATA nº 82/"
+    .Replacement.Text = "ATA nº oitenta e dois/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1078,8 +1076,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 83/"
-    .Replacement.Text = "ATA n� oitenta e tr�s/"
+    .Text = "ATA nº 83/"
+    .Replacement.Text = "ATA nº oitenta e três/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1091,8 +1089,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 84/"
-    .Replacement.Text = "ATA n� oitenta e quatro/"
+    .Text = "ATA nº 84/"
+    .Replacement.Text = "ATA nº oitenta e quatro/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1104,8 +1102,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 85/"
-    .Replacement.Text = "ATA n� oitenta e cinco/"
+    .Text = "ATA nº 85/"
+    .Replacement.Text = "ATA nº oitenta e cinco/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1117,8 +1115,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 86/"
-    .Replacement.Text = "ATA n� oitenta e seis/"
+    .Text = "ATA nº 86/"
+    .Replacement.Text = "ATA nº oitenta e seis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1130,8 +1128,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 87/"
-    .Replacement.Text = "ATA n� oitenta e sete/"
+    .Text = "ATA nº 87/"
+    .Replacement.Text = "ATA nº oitenta e sete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1143,8 +1141,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 88/"
-    .Replacement.Text = "ATA n� oitenta e oito/"
+    .Text = "ATA nº 88/"
+    .Replacement.Text = "ATA nº oitenta e oito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1156,8 +1154,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 89/"
-    .Replacement.Text = "ATA n� oitenta e nove/"
+    .Text = "ATA nº 89/"
+    .Replacement.Text = "ATA nº oitenta e nove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1169,8 +1167,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 90/"
-    .Replacement.Text = "ATA n� noventa/"
+    .Text = "ATA nº 90/"
+    .Replacement.Text = "ATA nº noventa/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1182,8 +1180,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 91/"
-    .Replacement.Text = "ATA n� noventa e um/"
+    .Text = "ATA nº 91/"
+    .Replacement.Text = "ATA nº noventa e um/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1195,8 +1193,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 92/"
-    .Replacement.Text = "ATA n� noventa e dois/"
+    .Text = "ATA nº 92/"
+    .Replacement.Text = "ATA nº noventa e dois/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1208,8 +1206,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 93/"
-    .Replacement.Text = "ATA n� noventa e tr�s/"
+    .Text = "ATA nº 93/"
+    .Replacement.Text = "ATA nº noventa e três/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1221,8 +1219,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 94/"
-    .Replacement.Text = "ATA n� noventa e quatro/"
+    .Text = "ATA nº 94/"
+    .Replacement.Text = "ATA nº noventa e quatro/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1234,8 +1232,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 95/"
-    .Replacement.Text = "ATA n� noventa e cinco/"
+    .Text = "ATA nº 95/"
+    .Replacement.Text = "ATA nº noventa e cinco/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1247,8 +1245,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 96/"
-    .Replacement.Text = "ATA n� noventa e seis/"
+    .Text = "ATA nº 96/"
+    .Replacement.Text = "ATA nº noventa e seis/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1260,8 +1258,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 97/"
-    .Replacement.Text = "ATA n� noventa e sete/"
+    .Text = "ATA nº 97/"
+    .Replacement.Text = "ATA nº noventa e sete/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1273,8 +1271,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 98/"
-    .Replacement.Text = "ATA n� noventa e oito/"
+    .Text = "ATA nº 98/"
+    .Replacement.Text = "ATA nº noventa e oito/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1286,8 +1284,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� 99/"
-    .Replacement.Text = "ATA n� noventa e nove/"
+    .Text = "ATA nº 99/"
+    .Replacement.Text = "ATA nº noventa e nove/"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -1299,10 +1297,9 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 
-MsgBox "Algarismos nos t�tulos das atas substitu�dos por n�meros por extenso.", vbInformation, "Show de bola!"
+MsgBox "Algarismos nos títulos das atas substituídos por números por extenso.", vbInformation, "Show de bola!"
 
 End Sub
-
 Sub ApagaTodosOsAlgarismosBocaDeUrna2020()
 Attribute ApagaTodosOsAlgarismosBocaDeUrna2020.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.ApagaTodosOsAlgarismosBocaDeUrna2020"
 '
@@ -1441,9 +1438,9 @@ Attribute ApagaTodosOsAlgarismosBocaDeUrna2020.VB_ProcData.VB_Invoke_Func = "Nor
         .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
-
+    
     MsgBox "Algarismos de 0 a 9 deletados do documento todo.", vbInformation, "Show de bola!"
-
+    
 End Sub
 Sub LimparBocaDeUrna2020()
 Attribute LimparBocaDeUrna2020.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.LimparQuebrasBocaDeUrna2020"
@@ -1494,7 +1491,7 @@ Attribute LimparBocaDeUrna2020.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.Li
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "C�MARA MUNICIPAL DE VEREADORES DE SANTA MARIA � RS" & vbTab _
+        .Text = "CÂMARA MUNICIPAL DE VEREADORES DE SANTA MARIA – RS" & vbTab _
             & "CSS/"
         .Replacement.Text = " "
         .Forward = True
@@ -1624,23 +1621,21 @@ Attribute LimparBocaDeUrna2020.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.Li
         .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
-
-    MsgBox "Deletados: cabe�alhos errados, quebras de linha e de se��o, espa�os duplos, triplos e qu�druplos.", vbInformation, "Show de bola!"
-
+    
+    MsgBox "Deletados: cabeçalhos errados, quebras de linha e de seção, espaços duplos, triplos e quádruplos.", vbInformation, "Show de bola!"
+    
 End Sub
-
-
-Sub QuebraT�tuloAtas()
-Attribute QuebraT�tuloAtas.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.QuebraT�tuloAtas"
+Sub QuebraTítuloAtas()
+Attribute QuebraTítuloAtas.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.QuebraTítuloAtas"
 '
-' QuebraT�tuloAtas Macro
+' QuebraTítuloAtas Macro
 '
 '
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
 With Selection.Find
-    .Text = "ATA n� um/"
-    .Replacement.Text = "^pATA n� um/^p"
+    .Text = "ATA nº um/"
+    .Replacement.Text = "^pATA nº um/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1652,8 +1647,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� dois/"
-    .Replacement.Text = "^pATA n� dois/^p"
+    .Text = "ATA nº dois/"
+    .Replacement.Text = "^pATA nº dois/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1665,8 +1660,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� tr�s/"
-    .Replacement.Text = "^pATA n� tr�s/^p"
+    .Text = "ATA nº três/"
+    .Replacement.Text = "^pATA nº três/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1678,8 +1673,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quatro/"
-    .Replacement.Text = "^pATA n� quatro/^p"
+    .Text = "ATA nº quatro/"
+    .Replacement.Text = "^pATA nº quatro/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1691,8 +1686,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinco/"
-    .Replacement.Text = "^pATA n� cinco/^p"
+    .Text = "ATA nº cinco/"
+    .Replacement.Text = "^pATA nº cinco/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1704,8 +1699,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� seis/"
-    .Replacement.Text = "^pATA n� seis/^p"
+    .Text = "ATA nº seis/"
+    .Replacement.Text = "^pATA nº seis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1717,8 +1712,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sete/"
-    .Replacement.Text = "^pATA n� sete/^p"
+    .Text = "ATA nº sete/"
+    .Replacement.Text = "^pATA nº sete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1730,8 +1725,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oito/"
-    .Replacement.Text = "^pATA n� oito/^p"
+    .Text = "ATA nº oito/"
+    .Replacement.Text = "^pATA nº oito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1743,8 +1738,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� nove/"
-    .Replacement.Text = "^pATA n� nove/^p"
+    .Text = "ATA nº nove/"
+    .Replacement.Text = "^pATA nº nove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1756,8 +1751,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� dez/"
-    .Replacement.Text = "^pATA n� dez/^p"
+    .Text = "ATA nº dez/"
+    .Replacement.Text = "^pATA nº dez/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1769,8 +1764,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� onze/"
-    .Replacement.Text = "^pATA n� onze/^p"
+    .Text = "ATA nº onze/"
+    .Replacement.Text = "^pATA nº onze/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1782,8 +1777,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� doze/"
-    .Replacement.Text = "^pATA n� doze/^p"
+    .Text = "ATA nº doze/"
+    .Replacement.Text = "^pATA nº doze/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1795,8 +1790,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� treze/"
-    .Replacement.Text = "^pATA n� treze/^p"
+    .Text = "ATA nº treze/"
+    .Replacement.Text = "^pATA nº treze/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1808,8 +1803,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quatorze/"
-    .Replacement.Text = "^pATA n� quatorze/^p"
+    .Text = "ATA nº quatorze/"
+    .Replacement.Text = "^pATA nº quatorze/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1821,8 +1816,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quinze/"
-    .Replacement.Text = "^pATA n� quinze/^p"
+    .Text = "ATA nº quinze/"
+    .Replacement.Text = "^pATA nº quinze/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1834,8 +1829,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� dezesseis/"
-    .Replacement.Text = "^pATA n� dezesseis/^p"
+    .Text = "ATA nº dezesseis/"
+    .Replacement.Text = "^pATA nº dezesseis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1847,8 +1842,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� dezessete/"
-    .Replacement.Text = "^pATA n� dezessete/^p"
+    .Text = "ATA nº dezessete/"
+    .Replacement.Text = "^pATA nº dezessete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1860,8 +1855,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� dezoito/"
-    .Replacement.Text = "^pATA n� dezoito/^p"
+    .Text = "ATA nº dezoito/"
+    .Replacement.Text = "^pATA nº dezoito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1873,8 +1868,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� dezenove/"
-    .Replacement.Text = "^pATA n� dezenove/^p"
+    .Text = "ATA nº dezenove/"
+    .Replacement.Text = "^pATA nº dezenove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1886,8 +1881,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte/"
-    .Replacement.Text = "^pATA n� vinte/^p"
+    .Text = "ATA nº vinte/"
+    .Replacement.Text = "^pATA nº vinte/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1899,8 +1894,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte e um/"
-    .Replacement.Text = "^pATA n� vinte e um/^p"
+    .Text = "ATA nº vinte e um/"
+    .Replacement.Text = "^pATA nº vinte e um/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1912,8 +1907,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte e dois/"
-    .Replacement.Text = "^pATA n� vinte e dois/^p"
+    .Text = "ATA nº vinte e dois/"
+    .Replacement.Text = "^pATA nº vinte e dois/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1925,8 +1920,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte e tr�s/"
-    .Replacement.Text = "^pATA n� vinte e tr�s/^p"
+    .Text = "ATA nº vinte e três/"
+    .Replacement.Text = "^pATA nº vinte e três/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1938,8 +1933,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte e quatro/"
-    .Replacement.Text = "^pATA n� vinte e quatro/^p"
+    .Text = "ATA nº vinte e quatro/"
+    .Replacement.Text = "^pATA nº vinte e quatro/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1951,8 +1946,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte e cinco/"
-    .Replacement.Text = "^pATA n� vinte e cinco/^p"
+    .Text = "ATA nº vinte e cinco/"
+    .Replacement.Text = "^pATA nº vinte e cinco/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1964,8 +1959,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte e seis/"
-    .Replacement.Text = "^pATA n� vinte e seis/^p"
+    .Text = "ATA nº vinte e seis/"
+    .Replacement.Text = "^pATA nº vinte e seis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1977,8 +1972,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte e sete/"
-    .Replacement.Text = "^pATA n� vinte e sete/^p"
+    .Text = "ATA nº vinte e sete/"
+    .Replacement.Text = "^pATA nº vinte e sete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -1990,8 +1985,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte e oito/"
-    .Replacement.Text = "^pATA n� vinte e oito/^p"
+    .Text = "ATA nº vinte e oito/"
+    .Replacement.Text = "^pATA nº vinte e oito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2003,8 +1998,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� vinte e nove/"
-    .Replacement.Text = "^pATA n� vinte e nove/^p"
+    .Text = "ATA nº vinte e nove/"
+    .Replacement.Text = "^pATA nº vinte e nove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2016,8 +2011,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta/"
-    .Replacement.Text = "^pATA n� trinta/^p"
+    .Text = "ATA nº trinta/"
+    .Replacement.Text = "^pATA nº trinta/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2029,8 +2024,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta e um/"
-    .Replacement.Text = "^pATA n� trinta e um/^p"
+    .Text = "ATA nº trinta e um/"
+    .Replacement.Text = "^pATA nº trinta e um/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2042,8 +2037,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta e dois/"
-    .Replacement.Text = "^pATA n� trinta e dois/^p"
+    .Text = "ATA nº trinta e dois/"
+    .Replacement.Text = "^pATA nº trinta e dois/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2055,8 +2050,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta e tr�s/"
-    .Replacement.Text = "^pATA n� trinta e tr�s/^p"
+    .Text = "ATA nº trinta e três/"
+    .Replacement.Text = "^pATA nº trinta e três/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2068,8 +2063,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta e quatro/"
-    .Replacement.Text = "^pATA n� trinta e quatro/^p"
+    .Text = "ATA nº trinta e quatro/"
+    .Replacement.Text = "^pATA nº trinta e quatro/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2081,8 +2076,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta e cinco/"
-    .Replacement.Text = "^pATA n� trinta e cinco/^p"
+    .Text = "ATA nº trinta e cinco/"
+    .Replacement.Text = "^pATA nº trinta e cinco/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2094,8 +2089,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta e seis/"
-    .Replacement.Text = "^pATA n� trinta e seis/^p"
+    .Text = "ATA nº trinta e seis/"
+    .Replacement.Text = "^pATA nº trinta e seis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2107,8 +2102,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta e sete/"
-    .Replacement.Text = "^pATA n� trinta e sete/^p"
+    .Text = "ATA nº trinta e sete/"
+    .Replacement.Text = "^pATA nº trinta e sete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2120,8 +2115,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta e oito/"
-    .Replacement.Text = "^pATA n� trinta e oito/^p"
+    .Text = "ATA nº trinta e oito/"
+    .Replacement.Text = "^pATA nº trinta e oito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2133,8 +2128,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� trinta e nove/"
-    .Replacement.Text = "^pATA n� trinta e nove/^p"
+    .Text = "ATA nº trinta e nove/"
+    .Replacement.Text = "^pATA nº trinta e nove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2146,8 +2141,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta/"
-    .Replacement.Text = "^pATA n� quarenta/^p"
+    .Text = "ATA nº quarenta/"
+    .Replacement.Text = "^pATA nº quarenta/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2159,8 +2154,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta e um/"
-    .Replacement.Text = "^pATA n� quarenta e um/^p"
+    .Text = "ATA nº quarenta e um/"
+    .Replacement.Text = "^pATA nº quarenta e um/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2172,8 +2167,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta e dois/"
-    .Replacement.Text = "^pATA n� quarenta e dois/^p"
+    .Text = "ATA nº quarenta e dois/"
+    .Replacement.Text = "^pATA nº quarenta e dois/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2185,8 +2180,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta e tr�s/"
-    .Replacement.Text = "^pATA n� quarenta e tr�s/^p"
+    .Text = "ATA nº quarenta e três/"
+    .Replacement.Text = "^pATA nº quarenta e três/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2198,8 +2193,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta e quatro/"
-    .Replacement.Text = "^pATA n� quarenta e quatro/^p"
+    .Text = "ATA nº quarenta e quatro/"
+    .Replacement.Text = "^pATA nº quarenta e quatro/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2211,8 +2206,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta e cinco/"
-    .Replacement.Text = "^pATA n� quarenta e cinco/^p"
+    .Text = "ATA nº quarenta e cinco/"
+    .Replacement.Text = "^pATA nº quarenta e cinco/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2224,8 +2219,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta e seis/"
-    .Replacement.Text = "^pATA n� quarenta e seis/^p"
+    .Text = "ATA nº quarenta e seis/"
+    .Replacement.Text = "^pATA nº quarenta e seis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2237,8 +2232,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta e sete/"
-    .Replacement.Text = "^pATA n� quarenta e sete/^p"
+    .Text = "ATA nº quarenta e sete/"
+    .Replacement.Text = "^pATA nº quarenta e sete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2250,8 +2245,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta e oito/"
-    .Replacement.Text = "^pATA n� quarenta e oito/^p"
+    .Text = "ATA nº quarenta e oito/"
+    .Replacement.Text = "^pATA nº quarenta e oito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2263,8 +2258,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� quarenta e nove/"
-    .Replacement.Text = "^pATA n� quarenta e nove/^p"
+    .Text = "ATA nº quarenta e nove/"
+    .Replacement.Text = "^pATA nº quarenta e nove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2276,8 +2271,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta/"
-    .Replacement.Text = "^pATA n� cinquenta/^p"
+    .Text = "ATA nº cinquenta/"
+    .Replacement.Text = "^pATA nº cinquenta/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2289,8 +2284,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta e um/"
-    .Replacement.Text = "^pATA n� cinquenta e um/^p"
+    .Text = "ATA nº cinquenta e um/"
+    .Replacement.Text = "^pATA nº cinquenta e um/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2302,8 +2297,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta e dois/"
-    .Replacement.Text = "^pATA n� cinquenta e dois/^p"
+    .Text = "ATA nº cinquenta e dois/"
+    .Replacement.Text = "^pATA nº cinquenta e dois/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2315,8 +2310,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta e tr�s/"
-    .Replacement.Text = "^pATA n� cinquenta e tr�s/^p"
+    .Text = "ATA nº cinquenta e três/"
+    .Replacement.Text = "^pATA nº cinquenta e três/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2328,8 +2323,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta e quatro/"
-    .Replacement.Text = "^pATA n� cinquenta e quatro/^p"
+    .Text = "ATA nº cinquenta e quatro/"
+    .Replacement.Text = "^pATA nº cinquenta e quatro/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2341,8 +2336,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta e cinco/"
-    .Replacement.Text = "^pATA n� cinquenta e cinco/^p"
+    .Text = "ATA nº cinquenta e cinco/"
+    .Replacement.Text = "^pATA nº cinquenta e cinco/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2354,8 +2349,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta e seis/"
-    .Replacement.Text = "^pATA n� cinquenta e seis/^p"
+    .Text = "ATA nº cinquenta e seis/"
+    .Replacement.Text = "^pATA nº cinquenta e seis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2367,8 +2362,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta e sete/"
-    .Replacement.Text = "^pATA n� cinquenta e sete/^p"
+    .Text = "ATA nº cinquenta e sete/"
+    .Replacement.Text = "^pATA nº cinquenta e sete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2380,8 +2375,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta e oito/"
-    .Replacement.Text = "^pATA n� cinquenta e oito/^p"
+    .Text = "ATA nº cinquenta e oito/"
+    .Replacement.Text = "^pATA nº cinquenta e oito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2393,8 +2388,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� cinquenta e nove/"
-    .Replacement.Text = "^pATA n� cinquenta e nove/^p"
+    .Text = "ATA nº cinquenta e nove/"
+    .Replacement.Text = "^pATA nº cinquenta e nove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2406,8 +2401,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta/"
-    .Replacement.Text = "^pATA n� sessenta/^p"
+    .Text = "ATA nº sessenta/"
+    .Replacement.Text = "^pATA nº sessenta/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2419,8 +2414,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta e um/"
-    .Replacement.Text = "^pATA n� sessenta e um/^p"
+    .Text = "ATA nº sessenta e um/"
+    .Replacement.Text = "^pATA nº sessenta e um/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2432,8 +2427,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta e dois/"
-    .Replacement.Text = "^pATA n� sessenta e dois/^p"
+    .Text = "ATA nº sessenta e dois/"
+    .Replacement.Text = "^pATA nº sessenta e dois/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2445,8 +2440,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta e tr�s/"
-    .Replacement.Text = "^pATA n� sessenta e tr�s/^p"
+    .Text = "ATA nº sessenta e três/"
+    .Replacement.Text = "^pATA nº sessenta e três/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2458,8 +2453,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta e quatro/"
-    .Replacement.Text = "^pATA n� sessenta e quatro/^p"
+    .Text = "ATA nº sessenta e quatro/"
+    .Replacement.Text = "^pATA nº sessenta e quatro/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2471,8 +2466,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta e cinco/"
-    .Replacement.Text = "^pATA n� sessenta e cinco/^p"
+    .Text = "ATA nº sessenta e cinco/"
+    .Replacement.Text = "^pATA nº sessenta e cinco/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2484,8 +2479,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta e seis/"
-    .Replacement.Text = "^pATA n� sessenta e seis/^p"
+    .Text = "ATA nº sessenta e seis/"
+    .Replacement.Text = "^pATA nº sessenta e seis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2497,8 +2492,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta e sete/"
-    .Replacement.Text = "^pATA n� sessenta e sete/^p"
+    .Text = "ATA nº sessenta e sete/"
+    .Replacement.Text = "^pATA nº sessenta e sete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2510,8 +2505,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta e oito/"
-    .Replacement.Text = "^pATA n� sessenta e oito/^p"
+    .Text = "ATA nº sessenta e oito/"
+    .Replacement.Text = "^pATA nº sessenta e oito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2523,8 +2518,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� sessenta e nove/"
-    .Replacement.Text = "^pATA n� sessenta e nove/^p"
+    .Text = "ATA nº sessenta e nove/"
+    .Replacement.Text = "^pATA nº sessenta e nove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2536,8 +2531,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta/"
-    .Replacement.Text = "^pATA n� setenta/^p"
+    .Text = "ATA nº setenta/"
+    .Replacement.Text = "^pATA nº setenta/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2549,8 +2544,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta e um/"
-    .Replacement.Text = "^pATA n� setenta e um/^p"
+    .Text = "ATA nº setenta e um/"
+    .Replacement.Text = "^pATA nº setenta e um/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2562,8 +2557,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta e dois/"
-    .Replacement.Text = "^pATA n� setenta e dois/^p"
+    .Text = "ATA nº setenta e dois/"
+    .Replacement.Text = "^pATA nº setenta e dois/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2575,8 +2570,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta e tr�s/"
-    .Replacement.Text = "^pATA n� setenta e tr�s/^p"
+    .Text = "ATA nº setenta e três/"
+    .Replacement.Text = "^pATA nº setenta e três/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2588,8 +2583,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta e quatro/"
-    .Replacement.Text = "^pATA n� setenta e quatro/^p"
+    .Text = "ATA nº setenta e quatro/"
+    .Replacement.Text = "^pATA nº setenta e quatro/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2601,8 +2596,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta e cinco/"
-    .Replacement.Text = "^pATA n� setenta e cinco/^p"
+    .Text = "ATA nº setenta e cinco/"
+    .Replacement.Text = "^pATA nº setenta e cinco/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2614,8 +2609,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta e seis/"
-    .Replacement.Text = "^pATA n� setenta e seis/^p"
+    .Text = "ATA nº setenta e seis/"
+    .Replacement.Text = "^pATA nº setenta e seis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2627,8 +2622,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta e sete/"
-    .Replacement.Text = "^pATA n� setenta e sete/^p"
+    .Text = "ATA nº setenta e sete/"
+    .Replacement.Text = "^pATA nº setenta e sete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2640,8 +2635,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta e oito/"
-    .Replacement.Text = "^pATA n� setenta e oito/^p"
+    .Text = "ATA nº setenta e oito/"
+    .Replacement.Text = "^pATA nº setenta e oito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2653,8 +2648,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� setenta e nove/"
-    .Replacement.Text = "^pATA n� setenta e nove/^p"
+    .Text = "ATA nº setenta e nove/"
+    .Replacement.Text = "^pATA nº setenta e nove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2666,8 +2661,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta/"
-    .Replacement.Text = "^pATA n� oitenta/^p"
+    .Text = "ATA nº oitenta/"
+    .Replacement.Text = "^pATA nº oitenta/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2679,8 +2674,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta e um/"
-    .Replacement.Text = "^pATA n� oitenta e um/^p"
+    .Text = "ATA nº oitenta e um/"
+    .Replacement.Text = "^pATA nº oitenta e um/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2692,8 +2687,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta e dois/"
-    .Replacement.Text = "^pATA n� oitenta e dois/^p"
+    .Text = "ATA nº oitenta e dois/"
+    .Replacement.Text = "^pATA nº oitenta e dois/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2705,8 +2700,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta e tr�s/"
-    .Replacement.Text = "^pATA n� oitenta e tr�s/^p"
+    .Text = "ATA nº oitenta e três/"
+    .Replacement.Text = "^pATA nº oitenta e três/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2718,8 +2713,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta e quatro/"
-    .Replacement.Text = "^pATA n� oitenta e quatro/^p"
+    .Text = "ATA nº oitenta e quatro/"
+    .Replacement.Text = "^pATA nº oitenta e quatro/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2731,8 +2726,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta e cinco/"
-    .Replacement.Text = "^pATA n� oitenta e cinco/^p"
+    .Text = "ATA nº oitenta e cinco/"
+    .Replacement.Text = "^pATA nº oitenta e cinco/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2744,8 +2739,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta e seis/"
-    .Replacement.Text = "^pATA n� oitenta e seis/^p"
+    .Text = "ATA nº oitenta e seis/"
+    .Replacement.Text = "^pATA nº oitenta e seis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2757,8 +2752,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta e sete/"
-    .Replacement.Text = "^pATA n� oitenta e sete/^p"
+    .Text = "ATA nº oitenta e sete/"
+    .Replacement.Text = "^pATA nº oitenta e sete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2770,8 +2765,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta e oito/"
-    .Replacement.Text = "^pATA n� oitenta e oito/^p"
+    .Text = "ATA nº oitenta e oito/"
+    .Replacement.Text = "^pATA nº oitenta e oito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2783,8 +2778,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� oitenta e nove/"
-    .Replacement.Text = "^pATA n� oitenta e nove/^p"
+    .Text = "ATA nº oitenta e nove/"
+    .Replacement.Text = "^pATA nº oitenta e nove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2796,8 +2791,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa/"
-    .Replacement.Text = "^pATA n� noventa/^p"
+    .Text = "ATA nº noventa/"
+    .Replacement.Text = "^pATA nº noventa/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2809,8 +2804,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa e um/"
-    .Replacement.Text = "^pATA n� noventa e um/^p"
+    .Text = "ATA nº noventa e um/"
+    .Replacement.Text = "^pATA nº noventa e um/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2822,8 +2817,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa e dois/"
-    .Replacement.Text = "^pATA n� noventa e dois/^p"
+    .Text = "ATA nº noventa e dois/"
+    .Replacement.Text = "^pATA nº noventa e dois/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2835,8 +2830,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa e tr�s/"
-    .Replacement.Text = "^pATA n� noventa e tr�s/^p"
+    .Text = "ATA nº noventa e três/"
+    .Replacement.Text = "^pATA nº noventa e três/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2848,8 +2843,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa e quatro/"
-    .Replacement.Text = "^pATA n� noventa e quatro/^p"
+    .Text = "ATA nº noventa e quatro/"
+    .Replacement.Text = "^pATA nº noventa e quatro/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2861,8 +2856,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa e cinco/"
-    .Replacement.Text = "^pATA n� noventa e cinco/^p"
+    .Text = "ATA nº noventa e cinco/"
+    .Replacement.Text = "^pATA nº noventa e cinco/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2874,8 +2869,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa e seis/"
-    .Replacement.Text = "^pATA n� noventa e seis/^p"
+    .Text = "ATA nº noventa e seis/"
+    .Replacement.Text = "^pATA nº noventa e seis/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2887,8 +2882,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa e sete/"
-    .Replacement.Text = "^pATA n� noventa e sete/^p"
+    .Text = "ATA nº noventa e sete/"
+    .Replacement.Text = "^pATA nº noventa e sete/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2900,8 +2895,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa e oito/"
-    .Replacement.Text = "^pATA n� noventa e oito/^p"
+    .Text = "ATA nº noventa e oito/"
+    .Replacement.Text = "^pATA nº noventa e oito/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2913,8 +2908,8 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 With Selection.Find
-    .Text = "ATA n� noventa e nove/"
-    .Replacement.Text = "^pATA n� noventa e nove/^p"
+    .Text = "ATA nº noventa e nove/"
+    .Replacement.Text = "^pATA nº noventa e nove/^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = False
@@ -2928,17 +2923,17 @@ Selection.Find.Execute Replace:=wdReplaceAll
 
         MsgBox "Quebra de linha antes e depois das atas inserida.", vbInformation, "Show de bola!"
 End Sub
-Sub QuebraT�tuloSe��es()
-Attribute QuebraT�tuloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.QuebraT�tuloSe��es"
+Sub QuebraTítuloSeções()
+Attribute QuebraTítuloSeções.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.QuebraTítuloSeções"
 '
-' QuebraT�tuloSe��es Macro
+' QuebraTítuloSeções Macro
 '
 '
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
     With Selection.Find
-        .Text = "SESS�O PLEN�RIA ORDIN�RIA"
-        .Replacement.Text = "^pSESS�O PLEN�RIA ORDIN�RIA^p"
+        .Text = "SESSÃO PLENÁRIA ORDINÁRIA"
+        .Replacement.Text = "^pSESSÃO PLENÁRIA ORDINÁRIA^p"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -2952,8 +2947,8 @@ Attribute QuebraT�tuloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacro
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
     With Selection.Find
-        .Text = "PER�ODO DAS COMUNICA��ES"
-        .Replacement.Text = "^pPER�ODO DAS COMUNICA��ES^p"
+        .Text = "PERÍODO DAS COMUNICAÇÕES"
+        .Replacement.Text = "^pPERÍODO DAS COMUNICAÇÕES^p"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -2967,8 +2962,8 @@ Attribute QuebraT�tuloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacro
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
     With Selection.Find
-        .Text = "PER�ODO DAS COMUNICA��ES"
-        .Replacement.Text = "^pPER�ODO DAS COMUNICA��ES^p"
+        .Text = "PERÍODO DAS COMUNICAÇÕES"
+        .Replacement.Text = "^pPERÍODO DAS COMUNICAÇÕES^p"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -2996,8 +2991,8 @@ Attribute QuebraT�tuloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacro
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
     With Selection.Find
-        .Text = "ESPA�O DE LIDERAN�A"
-        .Replacement.Text = "^pESPA�O DE LIDERAN�A^p"
+        .Text = "ESPAÇO DE LIDERANÇA"
+        .Replacement.Text = "^pESPAÇO DE LIDERANÇA^p"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -3011,8 +3006,8 @@ Attribute QuebraT�tuloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacro
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
     With Selection.Find
-        .Text = "ESPA�O DE LIDERAN�A"
-        .Replacement.Text = "^pESPA�O DE LIDERAN�A^p"
+        .Text = "ESPAÇO DE LIDERANÇA"
+        .Replacement.Text = "^pESPAÇO DE LIDERANÇA^p"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -3025,8 +3020,8 @@ Attribute QuebraT�tuloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacro
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
     With Selection.Find
-        .Text = "ESPA�O DE LIDERAN�A"
-        .Replacement.Text = "^pESPA�O DE LIDERAN�A^p"
+        .Text = "ESPAÇO DE LIDERANÇA"
+        .Replacement.Text = "^pESPAÇO DE LIDERANÇA^p"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -3036,22 +3031,22 @@ Attribute QuebraT�tuloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacro
         .MatchSoundsLike = False
         .MatchAllWordForms = False
     End With
-
-    MsgBox "Quebra de linha antes e depois das se��es inserida.", vbInformation, "Show de bola!"
-
+    
+    MsgBox "Quebra de linha antes e depois das seções inserida.", vbInformation, "Show de bola!"
+    
 End Sub
-Sub AtribuiEstiloSe��es()
-Attribute AtribuiEstiloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.AtribuiEstiloSe��es"
+Sub AtribuiEstiloSeções()
+Attribute AtribuiEstiloSeções.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.AtribuiEstiloSeções"
 '
-' AtribuiEstiloSe��es Macro
+' AtribuiEstiloSeções Macro
 '
 '
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
-    Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 1")
+    Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 1")
     With Selection.Find
-        .Text = "ATA n�"
-        .Replacement.Text = "ATA n�"
+        .Text = "ATA nº"
+        .Replacement.Text = "ATA nº"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -3064,10 +3059,10 @@ Attribute AtribuiEstiloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
     Selection.Find.Execute Replace:=wdReplaceAll
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
-    Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 2")
+    Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 2")
     With Selection.Find
-        .Text = "SESS�O PLEN�RIA ORDIN�RIA"
-        .Replacement.Text = "SESS�O PLEN�RIA ORDIN�RIA"
+        .Text = "SESSÃO PLENÁRIA ORDINÁRIA"
+        .Replacement.Text = "SESSÃO PLENÁRIA ORDINÁRIA"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -3080,10 +3075,10 @@ Attribute AtribuiEstiloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
     Selection.Find.Execute Replace:=wdReplaceAll
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
-    Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 2")
+    Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 2")
     With Selection.Find
-        .Text = "PER�ODO DAS COMUNICA��ES"
-        .Replacement.Text = "PER�ODO DAS COMUNICA��ES"
+        .Text = "PERÍODO DAS COMUNICAÇÕES"
+        .Replacement.Text = "PERÍODO DAS COMUNICAÇÕES"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -3108,8 +3103,8 @@ Attribute AtribuiEstiloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ESPA�O DE LIDERAN�A"
-        .Replacement.Text = "ESPA�O DE LIDERAN�A"
+        .Text = "ESPAÇO DE LIDERANÇA"
+        .Replacement.Text = "ESPAÇO DE LIDERANÇA"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -3120,9 +3115,9 @@ Attribute AtribuiEstiloSe��es.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
-
-    MsgBox "T�tulos prim�rios e secund�rios atribuidos.", vbInformation, "Show de bola!"
-
+    
+    MsgBox "Títulos primários e secundários atribuidos.", vbInformation, "Show de bola!"
+    
 End Sub
 Sub QuebraLinhasVereadores()
 Attribute QuebraLinhasVereadores.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.QuebraLinhasVereadores"
@@ -3254,8 +3249,8 @@ Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
 Selection.Find.Replacement.Font.Bold = True
 With Selection.Find
-    .Text = "Vereador Jo�o Kaus"
-    .Replacement.Text = "^pVereador Jo�o Kaus^p"
+    .Text = "Vereador João Kaus"
+    .Replacement.Text = "^pVereador João Kaus^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3271,8 +3266,8 @@ Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
 Selection.Find.Replacement.Font.Bold = True
 With Selection.Find
-    .Text = "Vereador Jo�o Chaves"
-    .Replacement.Text = "^pVereador Jo�o Chaves^p"
+    .Text = "Vereador João Chaves"
+    .Replacement.Text = "^pVereador João Chaves^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3288,8 +3283,8 @@ Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
 Selection.Find.Replacement.Font.Bold = True
 With Selection.Find
-    .Text = "Vereador Jo�o Ricardo Vargas"
-    .Replacement.Text = "^pVereador Jo�o Ricardo Vargas^p"
+    .Text = "Vereador João Ricardo Vargas"
+    .Replacement.Text = "^pVereador João Ricardo Vargas^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3475,8 +3470,8 @@ Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
 Selection.Find.Replacement.Font.Bold = True
 With Selection.Find
-    .Text = "Vereador Ov�dio Mayer"
-    .Replacement.Text = "^pVereador Ov�dio Mayer^p"
+    .Text = "Vereador Ovídio Mayer"
+    .Replacement.Text = "^pVereador Ovídio Mayer^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3509,8 +3504,8 @@ Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
 Selection.Find.Replacement.Font.Bold = True
 With Selection.Find
-    .Text = "Vereador Vanderlei Ara�jo"
-    .Replacement.Text = "^pVereador Vanderlei Ara�jo^p"
+    .Text = "Vereador Vanderlei Araújo"
+    .Replacement.Text = "^pVereador Vanderlei Araújo^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3526,8 +3521,8 @@ Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
 Selection.Find.Replacement.Font.Bold = True
 With Selection.Find
-    .Text = "Vereador Andr� Agne Domingues"
-    .Replacement.Text = "^pVereador Andr� Agne Domingues^p"
+    .Text = "Vereador André Agne Domingues"
+    .Replacement.Text = "^pVereador André Agne Domingues^p"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3556,7 +3551,7 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 
-    MsgBox "Quebra de linha nas men��es aos vereadores.", vbInformation, "Show de bola!"
+    MsgBox "Quebra de linha nas menções aos vereadores.", vbInformation, "Show de bola!"
 
 End Sub
 Sub AtribuiEstiloVereadores()
@@ -3568,7 +3563,7 @@ Attribute AtribuiEstiloVereadores.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Adelar Vargas"
     .Replacement.Text = "Vereador Adelar Vargas"
@@ -3585,7 +3580,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Admar Pozzobom"
     .Replacement.Text = "Vereador Admar Pozzobom"
@@ -3602,7 +3597,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Alexandre Vargas"
     .Replacement.Text = "Vereador Alexandre Vargas"
@@ -3619,7 +3614,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereadora Celita da Silva"
     .Replacement.Text = "Vereadora Celita da Silva"
@@ -3636,7 +3631,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Daniel Diniz"
     .Replacement.Text = "Vereador Daniel Diniz"
@@ -3653,7 +3648,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereadora Deili Silva"
     .Replacement.Text = "Vereadora Deili Silva"
@@ -3670,7 +3665,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Francisco Harrisson"
     .Replacement.Text = "Vereador Francisco Harrisson"
@@ -3687,10 +3682,10 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
-    .Text = "Vereador Jo�o Kaus"
-    .Replacement.Text = "Vereador Jo�o Kaus"
+    .Text = "Vereador João Kaus"
+    .Replacement.Text = "Vereador João Kaus"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3704,10 +3699,10 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
-    .Text = "Vereador Jo�o Chaves"
-    .Replacement.Text = "Vereador Jo�o Chaves"
+    .Text = "Vereador João Chaves"
+    .Replacement.Text = "Vereador João Chaves"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3721,10 +3716,10 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
-    .Text = "Vereador Jo�o Ricardo Vargas"
-    .Replacement.Text = "Vereador Jo�o Ricardo Vargas"
+    .Text = "Vereador João Ricardo Vargas"
+    .Replacement.Text = "Vereador João Ricardo Vargas"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3738,7 +3733,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Jorge Trindade Soares"
     .Replacement.Text = "Vereador Jorge Trindade Soares"
@@ -3755,7 +3750,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Juliano Soares"
     .Replacement.Text = "Vereador Juliano Soares"
@@ -3772,7 +3767,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Leopoldo Ochulaki"
     .Replacement.Text = "Vereador Leopoldo Ochulaki"
@@ -3789,7 +3784,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Leopoldo Vanderlei Ochulaki"
     .Replacement.Text = "Vereador Leopoldo Vanderlei Ochulaki"
@@ -3806,7 +3801,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereadora Luci Duartes"
     .Replacement.Text = "Vereadora Luci Duartes"
@@ -3823,7 +3818,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Luciano Guerra"
     .Replacement.Text = "Vereador Luciano Guerra"
@@ -3840,7 +3835,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Manoel Badke"
     .Replacement.Text = "Vereador Manoel Badke"
@@ -3857,7 +3852,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereadora Maria Aparecida Brizola"
     .Replacement.Text = "Vereadora Maria Aparecida Brizola"
@@ -3874,7 +3869,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Marion Mortari"
     .Replacement.Text = "Vereador Marion Mortari"
@@ -3891,7 +3886,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereadora Marta Zanella"
     .Replacement.Text = "Vereadora Marta Zanella"
@@ -3908,10 +3903,10 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
-    .Text = "Vereador Ov�dio Mayer"
-    .Replacement.Text = "Vereador Ov�dio Mayer"
+    .Text = "Vereador Ovídio Mayer"
+    .Replacement.Text = "Vereador Ovídio Mayer"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3925,7 +3920,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Valdir Oliveira"
     .Replacement.Text = "Vereador Valdir Oliveira"
@@ -3942,10 +3937,10 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
-    .Text = "Vereador Vanderlei Ara�jo"
-    .Replacement.Text = "Vereador Vanderlei Ara�jo"
+    .Text = "Vereador Vanderlei Araújo"
+    .Replacement.Text = "Vereador Vanderlei Araújo"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3959,10 +3954,10 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
-    .Text = "Vereador Andr� Agne Domingues"
-    .Replacement.Text = "Vereador Andr� Agne Domingues"
+    .Text = "Vereador André Agne Domingues"
+    .Replacement.Text = "Vereador André Agne Domingues"
     .Forward = True
     .Wrap = wdFindContinue
     .Format = True
@@ -3976,7 +3971,7 @@ Selection.Find.Execute Replace:=wdReplaceAll
 Selection.Find.ClearFormatting
 Selection.Find.Font.Bold = True
 Selection.Find.Replacement.ClearFormatting
-Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
 With Selection.Find
     .Text = "Vereador Cezar Gehm"
     .Replacement.Text = "Vereador Cezar Gehm"
@@ -3991,7 +3986,7 @@ With Selection.Find
 End With
 Selection.Find.Execute Replace:=wdReplaceAll
 
-    MsgBox "T�tulos terci�rios atribu�dos.", vbInformation, "Show de bola!"
+    MsgBox "Títulos terciários atribuídos.", vbInformation, "Show de bola!"
 
 End Sub
 Sub DeletarCabecalhosERodapes()
@@ -4010,9 +4005,8 @@ Sub DeletarCabecalhosERodapes()
       hd_ft.Range.Delete
     Next
   Next sec
-
+  
 End Sub
-
 Sub B_URNA_2A_LimparBocaDeUrna2020()
 '
 ' TratamentoDeAtas Macro
@@ -4027,7 +4021,7 @@ Sub B_URNA_2A_LimparBocaDeUrna2020()
     Selection.Find.ClearFormatting
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "C�MARA MUNICIPAL DE VEREADORES DE SANTA MARIA � RS" & vbTab _
+        .Text = "CÂMARA MUNICIPAL DE VEREADORES DE SANTA MARIA – RS" & vbTab _
             & "CSS/"
         .Replacement.Text = " "
         .Forward = True
@@ -4160,7 +4154,7 @@ Sub B_URNA_2A_LimparBocaDeUrna2020()
 
 
 
-    MsgBox "A princ�cio, tudo certo.", vbInformation, "Show de bola!"
+    MsgBox "A princício, tudo certo.", vbInformation, "Show de bola!"
 
 
 End Sub
@@ -4214,7 +4208,7 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "C�MARA MUNICIPAL DE VEREADORES DE SANTA MARIA � RS" & vbTab _
+        .Text = "CÂMARA MUNICIPAL DE VEREADORES DE SANTA MARIA – RS" & vbTab _
             & "CSS/"
         .Replacement.Text = " "
         .Forward = True
@@ -4346,13 +4340,13 @@ Sub BocaDeUrna1()
     Selection.Find.Execute Replace:=wdReplaceAll
 
     ' AlgarismosParaNumExtensoAtasBocaDeUrna2020 Macro
-    ' Altera algarismos de 01 a 99 do t�tulo das atas para n�meros por extenso para tratamento de atas no projeto Boca de Urna 2020.
+    ' Altera algarismos de 01 a 99 do título das atas para números por extenso para tratamento de atas no projeto Boca de Urna 2020.
     '
         Selection.Find.ClearFormatting
         Selection.Find.Replacement.ClearFormatting
     With Selection.Find
-        .Text = "ATA n� 01/"
-        .Replacement.Text = "ATA n� um/"
+        .Text = "ATA nº 01/"
+        .Replacement.Text = "ATA nº um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4364,8 +4358,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 02/"
-        .Replacement.Text = "ATA n� dois/"
+        .Text = "ATA nº 02/"
+        .Replacement.Text = "ATA nº dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4377,8 +4371,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 03/"
-        .Replacement.Text = "ATA n� tr�s/"
+        .Text = "ATA nº 03/"
+        .Replacement.Text = "ATA nº três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4390,8 +4384,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 04/"
-        .Replacement.Text = "ATA n� quatro/"
+        .Text = "ATA nº 04/"
+        .Replacement.Text = "ATA nº quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4403,8 +4397,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 05/"
-        .Replacement.Text = "ATA n� cinco/"
+        .Text = "ATA nº 05/"
+        .Replacement.Text = "ATA nº cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4416,8 +4410,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 06/"
-        .Replacement.Text = "ATA n� seis/"
+        .Text = "ATA nº 06/"
+        .Replacement.Text = "ATA nº seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4429,8 +4423,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 07/"
-        .Replacement.Text = "ATA n� sete/"
+        .Text = "ATA nº 07/"
+        .Replacement.Text = "ATA nº sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4442,8 +4436,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 08/"
-        .Replacement.Text = "ATA n� oito/"
+        .Text = "ATA nº 08/"
+        .Replacement.Text = "ATA nº oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4455,8 +4449,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 09/"
-        .Replacement.Text = "ATA n� nove/"
+        .Text = "ATA nº 09/"
+        .Replacement.Text = "ATA nº nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4468,8 +4462,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 10/"
-        .Replacement.Text = "ATA n� dez/"
+        .Text = "ATA nº 10/"
+        .Replacement.Text = "ATA nº dez/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4481,8 +4475,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 11/"
-        .Replacement.Text = "ATA n� onze/"
+        .Text = "ATA nº 11/"
+        .Replacement.Text = "ATA nº onze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4494,8 +4488,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 12/"
-        .Replacement.Text = "ATA n� doze/"
+        .Text = "ATA nº 12/"
+        .Replacement.Text = "ATA nº doze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4507,8 +4501,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 13/"
-        .Replacement.Text = "ATA n� treze/"
+        .Text = "ATA nº 13/"
+        .Replacement.Text = "ATA nº treze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4520,8 +4514,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 14/"
-        .Replacement.Text = "ATA n� quatorze/"
+        .Text = "ATA nº 14/"
+        .Replacement.Text = "ATA nº quatorze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4533,8 +4527,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 15/"
-        .Replacement.Text = "ATA n� quinze/"
+        .Text = "ATA nº 15/"
+        .Replacement.Text = "ATA nº quinze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4546,8 +4540,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 16/"
-        .Replacement.Text = "ATA n� dezesseis/"
+        .Text = "ATA nº 16/"
+        .Replacement.Text = "ATA nº dezesseis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4559,8 +4553,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 17/"
-        .Replacement.Text = "ATA n� dezessete/"
+        .Text = "ATA nº 17/"
+        .Replacement.Text = "ATA nº dezessete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4572,8 +4566,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 18/"
-        .Replacement.Text = "ATA n� dezoito/"
+        .Text = "ATA nº 18/"
+        .Replacement.Text = "ATA nº dezoito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4585,8 +4579,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 19/"
-        .Replacement.Text = "ATA n� dezenove/"
+        .Text = "ATA nº 19/"
+        .Replacement.Text = "ATA nº dezenove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4598,8 +4592,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 20/"
-        .Replacement.Text = "ATA n� vinte/"
+        .Text = "ATA nº 20/"
+        .Replacement.Text = "ATA nº vinte/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4611,8 +4605,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 21/"
-        .Replacement.Text = "ATA n� vinte e um/"
+        .Text = "ATA nº 21/"
+        .Replacement.Text = "ATA nº vinte e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4624,8 +4618,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 22/"
-        .Replacement.Text = "ATA n� vinte e dois/"
+        .Text = "ATA nº 22/"
+        .Replacement.Text = "ATA nº vinte e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4637,8 +4631,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 23/"
-        .Replacement.Text = "ATA n� vinte e tr�s/"
+        .Text = "ATA nº 23/"
+        .Replacement.Text = "ATA nº vinte e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4650,8 +4644,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 24/"
-        .Replacement.Text = "ATA n� vinte e quatro/"
+        .Text = "ATA nº 24/"
+        .Replacement.Text = "ATA nº vinte e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4663,8 +4657,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 25/"
-        .Replacement.Text = "ATA n� vinte e cinco/"
+        .Text = "ATA nº 25/"
+        .Replacement.Text = "ATA nº vinte e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4676,8 +4670,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 26/"
-        .Replacement.Text = "ATA n� vinte e seis/"
+        .Text = "ATA nº 26/"
+        .Replacement.Text = "ATA nº vinte e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4689,8 +4683,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 27/"
-        .Replacement.Text = "ATA n� vinte e sete/"
+        .Text = "ATA nº 27/"
+        .Replacement.Text = "ATA nº vinte e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4702,8 +4696,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 28/"
-        .Replacement.Text = "ATA n� vinte e oito/"
+        .Text = "ATA nº 28/"
+        .Replacement.Text = "ATA nº vinte e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4715,8 +4709,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 29/"
-        .Replacement.Text = "ATA n� vinte e nove/"
+        .Text = "ATA nº 29/"
+        .Replacement.Text = "ATA nº vinte e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4728,8 +4722,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 30/"
-        .Replacement.Text = "ATA n� trinta/"
+        .Text = "ATA nº 30/"
+        .Replacement.Text = "ATA nº trinta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4741,8 +4735,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 31/"
-        .Replacement.Text = "ATA n� trinta e um/"
+        .Text = "ATA nº 31/"
+        .Replacement.Text = "ATA nº trinta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4754,8 +4748,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 32/"
-        .Replacement.Text = "ATA n� trinta e dois/"
+        .Text = "ATA nº 32/"
+        .Replacement.Text = "ATA nº trinta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4767,8 +4761,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 33/"
-        .Replacement.Text = "ATA n� trinta e tr�s/"
+        .Text = "ATA nº 33/"
+        .Replacement.Text = "ATA nº trinta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4780,8 +4774,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 34/"
-        .Replacement.Text = "ATA n� trinta e quatro/"
+        .Text = "ATA nº 34/"
+        .Replacement.Text = "ATA nº trinta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4793,8 +4787,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 35/"
-        .Replacement.Text = "ATA n� trinta e cinco/"
+        .Text = "ATA nº 35/"
+        .Replacement.Text = "ATA nº trinta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4806,8 +4800,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 36/"
-        .Replacement.Text = "ATA n� trinta e seis/"
+        .Text = "ATA nº 36/"
+        .Replacement.Text = "ATA nº trinta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4819,8 +4813,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 37/"
-        .Replacement.Text = "ATA n� trinta e sete/"
+        .Text = "ATA nº 37/"
+        .Replacement.Text = "ATA nº trinta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4832,8 +4826,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 38/"
-        .Replacement.Text = "ATA n� trinta e oito/"
+        .Text = "ATA nº 38/"
+        .Replacement.Text = "ATA nº trinta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4845,8 +4839,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 39/"
-        .Replacement.Text = "ATA n� trinta e nove/"
+        .Text = "ATA nº 39/"
+        .Replacement.Text = "ATA nº trinta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4858,8 +4852,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 40/"
-        .Replacement.Text = "ATA n� quarenta/"
+        .Text = "ATA nº 40/"
+        .Replacement.Text = "ATA nº quarenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4871,8 +4865,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 41/"
-        .Replacement.Text = "ATA n� quarenta e um/"
+        .Text = "ATA nº 41/"
+        .Replacement.Text = "ATA nº quarenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4884,8 +4878,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 42/"
-        .Replacement.Text = "ATA n� quarenta e dois/"
+        .Text = "ATA nº 42/"
+        .Replacement.Text = "ATA nº quarenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4897,8 +4891,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 43/"
-        .Replacement.Text = "ATA n� quarenta e tr�s/"
+        .Text = "ATA nº 43/"
+        .Replacement.Text = "ATA nº quarenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4910,8 +4904,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 44/"
-        .Replacement.Text = "ATA n� quarenta e quatro/"
+        .Text = "ATA nº 44/"
+        .Replacement.Text = "ATA nº quarenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4923,8 +4917,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 45/"
-        .Replacement.Text = "ATA n� quarenta e cinco/"
+        .Text = "ATA nº 45/"
+        .Replacement.Text = "ATA nº quarenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4936,8 +4930,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 46/"
-        .Replacement.Text = "ATA n� quarenta e seis/"
+        .Text = "ATA nº 46/"
+        .Replacement.Text = "ATA nº quarenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4949,8 +4943,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 47/"
-        .Replacement.Text = "ATA n� quarenta e sete/"
+        .Text = "ATA nº 47/"
+        .Replacement.Text = "ATA nº quarenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4962,8 +4956,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 48/"
-        .Replacement.Text = "ATA n� quarenta e oito/"
+        .Text = "ATA nº 48/"
+        .Replacement.Text = "ATA nº quarenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4975,8 +4969,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 49/"
-        .Replacement.Text = "ATA n� quarenta e nove/"
+        .Text = "ATA nº 49/"
+        .Replacement.Text = "ATA nº quarenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -4988,8 +4982,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 50/"
-        .Replacement.Text = "ATA n� cinquenta/"
+        .Text = "ATA nº 50/"
+        .Replacement.Text = "ATA nº cinquenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5001,8 +4995,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 51/"
-        .Replacement.Text = "ATA n� cinquenta e um/"
+        .Text = "ATA nº 51/"
+        .Replacement.Text = "ATA nº cinquenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5014,8 +5008,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 52/"
-        .Replacement.Text = "ATA n� cinquenta e dois/"
+        .Text = "ATA nº 52/"
+        .Replacement.Text = "ATA nº cinquenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5027,8 +5021,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 53/"
-        .Replacement.Text = "ATA n� cinquenta e tr�s/"
+        .Text = "ATA nº 53/"
+        .Replacement.Text = "ATA nº cinquenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5040,8 +5034,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 54/"
-        .Replacement.Text = "ATA n� cinquenta e quatro/"
+        .Text = "ATA nº 54/"
+        .Replacement.Text = "ATA nº cinquenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5053,8 +5047,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 55/"
-        .Replacement.Text = "ATA n� cinquenta e cinco/"
+        .Text = "ATA nº 55/"
+        .Replacement.Text = "ATA nº cinquenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5066,8 +5060,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 56/"
-        .Replacement.Text = "ATA n� cinquenta e seis/"
+        .Text = "ATA nº 56/"
+        .Replacement.Text = "ATA nº cinquenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5079,8 +5073,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 57/"
-        .Replacement.Text = "ATA n� cinquenta e sete/"
+        .Text = "ATA nº 57/"
+        .Replacement.Text = "ATA nº cinquenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5092,8 +5086,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 58/"
-        .Replacement.Text = "ATA n� cinquenta e oito/"
+        .Text = "ATA nº 58/"
+        .Replacement.Text = "ATA nº cinquenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5105,8 +5099,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 59/"
-        .Replacement.Text = "ATA n� cinquenta e nove/"
+        .Text = "ATA nº 59/"
+        .Replacement.Text = "ATA nº cinquenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5118,8 +5112,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 60/"
-        .Replacement.Text = "ATA n� sessenta/"
+        .Text = "ATA nº 60/"
+        .Replacement.Text = "ATA nº sessenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5131,8 +5125,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 61/"
-        .Replacement.Text = "ATA n� sessenta e um/"
+        .Text = "ATA nº 61/"
+        .Replacement.Text = "ATA nº sessenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5144,8 +5138,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 62/"
-        .Replacement.Text = "ATA n� sessenta e dois/"
+        .Text = "ATA nº 62/"
+        .Replacement.Text = "ATA nº sessenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5157,8 +5151,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 63/"
-        .Replacement.Text = "ATA n� sessenta e tr�s/"
+        .Text = "ATA nº 63/"
+        .Replacement.Text = "ATA nº sessenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5170,8 +5164,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 64/"
-        .Replacement.Text = "ATA n� sessenta e quatro/"
+        .Text = "ATA nº 64/"
+        .Replacement.Text = "ATA nº sessenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5183,8 +5177,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 65/"
-        .Replacement.Text = "ATA n� sessenta e cinco/"
+        .Text = "ATA nº 65/"
+        .Replacement.Text = "ATA nº sessenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5196,8 +5190,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 66/"
-        .Replacement.Text = "ATA n� sessenta e seis/"
+        .Text = "ATA nº 66/"
+        .Replacement.Text = "ATA nº sessenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5209,8 +5203,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 67/"
-        .Replacement.Text = "ATA n� sessenta e sete/"
+        .Text = "ATA nº 67/"
+        .Replacement.Text = "ATA nº sessenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5222,8 +5216,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 68/"
-        .Replacement.Text = "ATA n� sessenta e oito/"
+        .Text = "ATA nº 68/"
+        .Replacement.Text = "ATA nº sessenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5235,8 +5229,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 69/"
-        .Replacement.Text = "ATA n� sessenta e nove/"
+        .Text = "ATA nº 69/"
+        .Replacement.Text = "ATA nº sessenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5248,8 +5242,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 70/"
-        .Replacement.Text = "ATA n� setenta/"
+        .Text = "ATA nº 70/"
+        .Replacement.Text = "ATA nº setenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5261,8 +5255,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 71/"
-        .Replacement.Text = "ATA n� setenta e um/"
+        .Text = "ATA nº 71/"
+        .Replacement.Text = "ATA nº setenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5274,8 +5268,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 72/"
-        .Replacement.Text = "ATA n� setenta e dois/"
+        .Text = "ATA nº 72/"
+        .Replacement.Text = "ATA nº setenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5287,8 +5281,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 73/"
-        .Replacement.Text = "ATA n� setenta e tr�s/"
+        .Text = "ATA nº 73/"
+        .Replacement.Text = "ATA nº setenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5300,8 +5294,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 74/"
-        .Replacement.Text = "ATA n� setenta e quatro/"
+        .Text = "ATA nº 74/"
+        .Replacement.Text = "ATA nº setenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5313,8 +5307,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 75/"
-        .Replacement.Text = "ATA n� setenta e cinco/"
+        .Text = "ATA nº 75/"
+        .Replacement.Text = "ATA nº setenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5326,8 +5320,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 76/"
-        .Replacement.Text = "ATA n� setenta e seis/"
+        .Text = "ATA nº 76/"
+        .Replacement.Text = "ATA nº setenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5339,8 +5333,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 77/"
-        .Replacement.Text = "ATA n� setenta e sete/"
+        .Text = "ATA nº 77/"
+        .Replacement.Text = "ATA nº setenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5352,8 +5346,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 78/"
-        .Replacement.Text = "ATA n� setenta e oito/"
+        .Text = "ATA nº 78/"
+        .Replacement.Text = "ATA nº setenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5365,8 +5359,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 79/"
-        .Replacement.Text = "ATA n� setenta e nove/"
+        .Text = "ATA nº 79/"
+        .Replacement.Text = "ATA nº setenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5378,8 +5372,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 80/"
-        .Replacement.Text = "ATA n� oitenta/"
+        .Text = "ATA nº 80/"
+        .Replacement.Text = "ATA nº oitenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5391,8 +5385,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 81/"
-        .Replacement.Text = "ATA n� oitenta e um/"
+        .Text = "ATA nº 81/"
+        .Replacement.Text = "ATA nº oitenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5404,8 +5398,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 82/"
-        .Replacement.Text = "ATA n� oitenta e dois/"
+        .Text = "ATA nº 82/"
+        .Replacement.Text = "ATA nº oitenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5417,8 +5411,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 83/"
-        .Replacement.Text = "ATA n� oitenta e tr�s/"
+        .Text = "ATA nº 83/"
+        .Replacement.Text = "ATA nº oitenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5430,8 +5424,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 84/"
-        .Replacement.Text = "ATA n� oitenta e quatro/"
+        .Text = "ATA nº 84/"
+        .Replacement.Text = "ATA nº oitenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5443,8 +5437,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 85/"
-        .Replacement.Text = "ATA n� oitenta e cinco/"
+        .Text = "ATA nº 85/"
+        .Replacement.Text = "ATA nº oitenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5456,8 +5450,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 86/"
-        .Replacement.Text = "ATA n� oitenta e seis/"
+        .Text = "ATA nº 86/"
+        .Replacement.Text = "ATA nº oitenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5469,8 +5463,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 87/"
-        .Replacement.Text = "ATA n� oitenta e sete/"
+        .Text = "ATA nº 87/"
+        .Replacement.Text = "ATA nº oitenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5482,8 +5476,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 88/"
-        .Replacement.Text = "ATA n� oitenta e oito/"
+        .Text = "ATA nº 88/"
+        .Replacement.Text = "ATA nº oitenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5495,8 +5489,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 89/"
-        .Replacement.Text = "ATA n� oitenta e nove/"
+        .Text = "ATA nº 89/"
+        .Replacement.Text = "ATA nº oitenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5508,8 +5502,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 90/"
-        .Replacement.Text = "ATA n� noventa/"
+        .Text = "ATA nº 90/"
+        .Replacement.Text = "ATA nº noventa/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5521,8 +5515,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 91/"
-        .Replacement.Text = "ATA n� noventa e um/"
+        .Text = "ATA nº 91/"
+        .Replacement.Text = "ATA nº noventa e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5534,8 +5528,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 92/"
-        .Replacement.Text = "ATA n� noventa e dois/"
+        .Text = "ATA nº 92/"
+        .Replacement.Text = "ATA nº noventa e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5547,8 +5541,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 93/"
-        .Replacement.Text = "ATA n� noventa e tr�s/"
+        .Text = "ATA nº 93/"
+        .Replacement.Text = "ATA nº noventa e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5560,8 +5554,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 94/"
-        .Replacement.Text = "ATA n� noventa e quatro/"
+        .Text = "ATA nº 94/"
+        .Replacement.Text = "ATA nº noventa e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5573,8 +5567,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 95/"
-        .Replacement.Text = "ATA n� noventa e cinco/"
+        .Text = "ATA nº 95/"
+        .Replacement.Text = "ATA nº noventa e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5586,8 +5580,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 96/"
-        .Replacement.Text = "ATA n� noventa e seis/"
+        .Text = "ATA nº 96/"
+        .Replacement.Text = "ATA nº noventa e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5599,8 +5593,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 97/"
-        .Replacement.Text = "ATA n� noventa e sete/"
+        .Text = "ATA nº 97/"
+        .Replacement.Text = "ATA nº noventa e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5612,8 +5606,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 98/"
-        .Replacement.Text = "ATA n� noventa e oito/"
+        .Text = "ATA nº 98/"
+        .Replacement.Text = "ATA nº noventa e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5625,8 +5619,8 @@ Sub BocaDeUrna1()
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 99/"
-        .Replacement.Text = "ATA n� noventa e nove/"
+        .Text = "ATA nº 99/"
+        .Replacement.Text = "ATA nº noventa e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -5641,7 +5635,7 @@ Sub BocaDeUrna1()
 
 
     MsgBox "Parte 1 ok", vbInformation, "Show de bola!"
-
+    
 End Sub
 Sub BocaDeUrna2()
 '
@@ -5788,14 +5782,14 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
 
-        ' QuebraT�tuloAtas Macro
+        ' QuebraTítuloAtas Macro
         '
         '
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
         With Selection.Find
-            .Text = "ATA n� um/"
-            .Replacement.Text = "^pATA n� um/^p"
+            .Text = "ATA nº um/"
+            .Replacement.Text = "^pATA nº um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5807,8 +5801,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dois/"
-            .Replacement.Text = "^pATA n� dois/^p"
+            .Text = "ATA nº dois/"
+            .Replacement.Text = "^pATA nº dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5820,8 +5814,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� tr�s/"
-            .Replacement.Text = "^pATA n� tr�s/^p"
+            .Text = "ATA nº três/"
+            .Replacement.Text = "^pATA nº três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5833,8 +5827,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quatro/"
-            .Replacement.Text = "^pATA n� quatro/^p"
+            .Text = "ATA nº quatro/"
+            .Replacement.Text = "^pATA nº quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5846,8 +5840,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinco/"
-            .Replacement.Text = "^pATA n� cinco/^p"
+            .Text = "ATA nº cinco/"
+            .Replacement.Text = "^pATA nº cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5859,8 +5853,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� seis/"
-            .Replacement.Text = "^pATA n� seis/^p"
+            .Text = "ATA nº seis/"
+            .Replacement.Text = "^pATA nº seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5872,8 +5866,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sete/"
-            .Replacement.Text = "^pATA n� sete/^p"
+            .Text = "ATA nº sete/"
+            .Replacement.Text = "^pATA nº sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5885,8 +5879,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oito/"
-            .Replacement.Text = "^pATA n� oito/^p"
+            .Text = "ATA nº oito/"
+            .Replacement.Text = "^pATA nº oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5898,8 +5892,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� nove/"
-            .Replacement.Text = "^pATA n� nove/^p"
+            .Text = "ATA nº nove/"
+            .Replacement.Text = "^pATA nº nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5911,8 +5905,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dez/"
-            .Replacement.Text = "^pATA n� dez/^p"
+            .Text = "ATA nº dez/"
+            .Replacement.Text = "^pATA nº dez/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5924,8 +5918,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� onze/"
-            .Replacement.Text = "^pATA n� onze/^p"
+            .Text = "ATA nº onze/"
+            .Replacement.Text = "^pATA nº onze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5937,8 +5931,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� doze/"
-            .Replacement.Text = "^pATA n� doze/^p"
+            .Text = "ATA nº doze/"
+            .Replacement.Text = "^pATA nº doze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5950,8 +5944,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� treze/"
-            .Replacement.Text = "^pATA n� treze/^p"
+            .Text = "ATA nº treze/"
+            .Replacement.Text = "^pATA nº treze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5963,8 +5957,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quatorze/"
-            .Replacement.Text = "^pATA n� quatorze/^p"
+            .Text = "ATA nº quatorze/"
+            .Replacement.Text = "^pATA nº quatorze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5976,8 +5970,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quinze/"
-            .Replacement.Text = "^pATA n� quinze/^p"
+            .Text = "ATA nº quinze/"
+            .Replacement.Text = "^pATA nº quinze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -5989,8 +5983,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dezesseis/"
-            .Replacement.Text = "^pATA n� dezesseis/^p"
+            .Text = "ATA nº dezesseis/"
+            .Replacement.Text = "^pATA nº dezesseis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6002,8 +5996,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dezessete/"
-            .Replacement.Text = "^pATA n� dezessete/^p"
+            .Text = "ATA nº dezessete/"
+            .Replacement.Text = "^pATA nº dezessete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6015,8 +6009,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dezoito/"
-            .Replacement.Text = "^pATA n� dezoito/^p"
+            .Text = "ATA nº dezoito/"
+            .Replacement.Text = "^pATA nº dezoito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6028,8 +6022,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dezenove/"
-            .Replacement.Text = "^pATA n� dezenove/^p"
+            .Text = "ATA nº dezenove/"
+            .Replacement.Text = "^pATA nº dezenove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6041,8 +6035,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte/"
-            .Replacement.Text = "^pATA n� vinte/^p"
+            .Text = "ATA nº vinte/"
+            .Replacement.Text = "^pATA nº vinte/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6054,8 +6048,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e um/"
-            .Replacement.Text = "^pATA n� vinte e um/^p"
+            .Text = "ATA nº vinte e um/"
+            .Replacement.Text = "^pATA nº vinte e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6067,8 +6061,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e dois/"
-            .Replacement.Text = "^pATA n� vinte e dois/^p"
+            .Text = "ATA nº vinte e dois/"
+            .Replacement.Text = "^pATA nº vinte e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6080,8 +6074,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e tr�s/"
-            .Replacement.Text = "^pATA n� vinte e tr�s/^p"
+            .Text = "ATA nº vinte e três/"
+            .Replacement.Text = "^pATA nº vinte e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6093,8 +6087,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e quatro/"
-            .Replacement.Text = "^pATA n� vinte e quatro/^p"
+            .Text = "ATA nº vinte e quatro/"
+            .Replacement.Text = "^pATA nº vinte e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6106,8 +6100,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e cinco/"
-            .Replacement.Text = "^pATA n� vinte e cinco/^p"
+            .Text = "ATA nº vinte e cinco/"
+            .Replacement.Text = "^pATA nº vinte e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6119,8 +6113,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e seis/"
-            .Replacement.Text = "^pATA n� vinte e seis/^p"
+            .Text = "ATA nº vinte e seis/"
+            .Replacement.Text = "^pATA nº vinte e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6132,8 +6126,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e sete/"
-            .Replacement.Text = "^pATA n� vinte e sete/^p"
+            .Text = "ATA nº vinte e sete/"
+            .Replacement.Text = "^pATA nº vinte e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6145,8 +6139,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e oito/"
-            .Replacement.Text = "^pATA n� vinte e oito/^p"
+            .Text = "ATA nº vinte e oito/"
+            .Replacement.Text = "^pATA nº vinte e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6158,8 +6152,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e nove/"
-            .Replacement.Text = "^pATA n� vinte e nove/^p"
+            .Text = "ATA nº vinte e nove/"
+            .Replacement.Text = "^pATA nº vinte e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6171,8 +6165,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta/"
-            .Replacement.Text = "^pATA n� trinta/^p"
+            .Text = "ATA nº trinta/"
+            .Replacement.Text = "^pATA nº trinta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6184,8 +6178,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e um/"
-            .Replacement.Text = "^pATA n� trinta e um/^p"
+            .Text = "ATA nº trinta e um/"
+            .Replacement.Text = "^pATA nº trinta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6197,8 +6191,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e dois/"
-            .Replacement.Text = "^pATA n� trinta e dois/^p"
+            .Text = "ATA nº trinta e dois/"
+            .Replacement.Text = "^pATA nº trinta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6210,8 +6204,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e tr�s/"
-            .Replacement.Text = "^pATA n� trinta e tr�s/^p"
+            .Text = "ATA nº trinta e três/"
+            .Replacement.Text = "^pATA nº trinta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6223,8 +6217,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e quatro/"
-            .Replacement.Text = "^pATA n� trinta e quatro/^p"
+            .Text = "ATA nº trinta e quatro/"
+            .Replacement.Text = "^pATA nº trinta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6236,8 +6230,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e cinco/"
-            .Replacement.Text = "^pATA n� trinta e cinco/^p"
+            .Text = "ATA nº trinta e cinco/"
+            .Replacement.Text = "^pATA nº trinta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6249,8 +6243,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e seis/"
-            .Replacement.Text = "^pATA n� trinta e seis/^p"
+            .Text = "ATA nº trinta e seis/"
+            .Replacement.Text = "^pATA nº trinta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6262,8 +6256,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e sete/"
-            .Replacement.Text = "^pATA n� trinta e sete/^p"
+            .Text = "ATA nº trinta e sete/"
+            .Replacement.Text = "^pATA nº trinta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6275,8 +6269,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e oito/"
-            .Replacement.Text = "^pATA n� trinta e oito/^p"
+            .Text = "ATA nº trinta e oito/"
+            .Replacement.Text = "^pATA nº trinta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6288,8 +6282,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e nove/"
-            .Replacement.Text = "^pATA n� trinta e nove/^p"
+            .Text = "ATA nº trinta e nove/"
+            .Replacement.Text = "^pATA nº trinta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6301,8 +6295,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta/"
-            .Replacement.Text = "^pATA n� quarenta/^p"
+            .Text = "ATA nº quarenta/"
+            .Replacement.Text = "^pATA nº quarenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6314,8 +6308,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e um/"
-            .Replacement.Text = "^pATA n� quarenta e um/^p"
+            .Text = "ATA nº quarenta e um/"
+            .Replacement.Text = "^pATA nº quarenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6327,8 +6321,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e dois/"
-            .Replacement.Text = "^pATA n� quarenta e dois/^p"
+            .Text = "ATA nº quarenta e dois/"
+            .Replacement.Text = "^pATA nº quarenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6340,8 +6334,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e tr�s/"
-            .Replacement.Text = "^pATA n� quarenta e tr�s/^p"
+            .Text = "ATA nº quarenta e três/"
+            .Replacement.Text = "^pATA nº quarenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6353,8 +6347,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e quatro/"
-            .Replacement.Text = "^pATA n� quarenta e quatro/^p"
+            .Text = "ATA nº quarenta e quatro/"
+            .Replacement.Text = "^pATA nº quarenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6366,8 +6360,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e cinco/"
-            .Replacement.Text = "^pATA n� quarenta e cinco/^p"
+            .Text = "ATA nº quarenta e cinco/"
+            .Replacement.Text = "^pATA nº quarenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6379,8 +6373,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e seis/"
-            .Replacement.Text = "^pATA n� quarenta e seis/^p"
+            .Text = "ATA nº quarenta e seis/"
+            .Replacement.Text = "^pATA nº quarenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6392,8 +6386,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e sete/"
-            .Replacement.Text = "^pATA n� quarenta e sete/^p"
+            .Text = "ATA nº quarenta e sete/"
+            .Replacement.Text = "^pATA nº quarenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6405,8 +6399,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e oito/"
-            .Replacement.Text = "^pATA n� quarenta e oito/^p"
+            .Text = "ATA nº quarenta e oito/"
+            .Replacement.Text = "^pATA nº quarenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6418,8 +6412,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e nove/"
-            .Replacement.Text = "^pATA n� quarenta e nove/^p"
+            .Text = "ATA nº quarenta e nove/"
+            .Replacement.Text = "^pATA nº quarenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6431,8 +6425,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta/"
-            .Replacement.Text = "^pATA n� cinquenta/^p"
+            .Text = "ATA nº cinquenta/"
+            .Replacement.Text = "^pATA nº cinquenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6444,8 +6438,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e um/"
-            .Replacement.Text = "^pATA n� cinquenta e um/^p"
+            .Text = "ATA nº cinquenta e um/"
+            .Replacement.Text = "^pATA nº cinquenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6457,8 +6451,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e dois/"
-            .Replacement.Text = "^pATA n� cinquenta e dois/^p"
+            .Text = "ATA nº cinquenta e dois/"
+            .Replacement.Text = "^pATA nº cinquenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6470,8 +6464,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e tr�s/"
-            .Replacement.Text = "^pATA n� cinquenta e tr�s/^p"
+            .Text = "ATA nº cinquenta e três/"
+            .Replacement.Text = "^pATA nº cinquenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6483,8 +6477,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e quatro/"
-            .Replacement.Text = "^pATA n� cinquenta e quatro/^p"
+            .Text = "ATA nº cinquenta e quatro/"
+            .Replacement.Text = "^pATA nº cinquenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6496,8 +6490,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e cinco/"
-            .Replacement.Text = "^pATA n� cinquenta e cinco/^p"
+            .Text = "ATA nº cinquenta e cinco/"
+            .Replacement.Text = "^pATA nº cinquenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6509,8 +6503,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e seis/"
-            .Replacement.Text = "^pATA n� cinquenta e seis/^p"
+            .Text = "ATA nº cinquenta e seis/"
+            .Replacement.Text = "^pATA nº cinquenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6522,8 +6516,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e sete/"
-            .Replacement.Text = "^pATA n� cinquenta e sete/^p"
+            .Text = "ATA nº cinquenta e sete/"
+            .Replacement.Text = "^pATA nº cinquenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6535,8 +6529,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e oito/"
-            .Replacement.Text = "^pATA n� cinquenta e oito/^p"
+            .Text = "ATA nº cinquenta e oito/"
+            .Replacement.Text = "^pATA nº cinquenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6548,8 +6542,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e nove/"
-            .Replacement.Text = "^pATA n� cinquenta e nove/^p"
+            .Text = "ATA nº cinquenta e nove/"
+            .Replacement.Text = "^pATA nº cinquenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6561,8 +6555,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta/"
-            .Replacement.Text = "^pATA n� sessenta/^p"
+            .Text = "ATA nº sessenta/"
+            .Replacement.Text = "^pATA nº sessenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6574,8 +6568,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e um/"
-            .Replacement.Text = "^pATA n� sessenta e um/^p"
+            .Text = "ATA nº sessenta e um/"
+            .Replacement.Text = "^pATA nº sessenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6587,8 +6581,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e dois/"
-            .Replacement.Text = "^pATA n� sessenta e dois/^p"
+            .Text = "ATA nº sessenta e dois/"
+            .Replacement.Text = "^pATA nº sessenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6600,8 +6594,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e tr�s/"
-            .Replacement.Text = "^pATA n� sessenta e tr�s/^p"
+            .Text = "ATA nº sessenta e três/"
+            .Replacement.Text = "^pATA nº sessenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6613,8 +6607,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e quatro/"
-            .Replacement.Text = "^pATA n� sessenta e quatro/^p"
+            .Text = "ATA nº sessenta e quatro/"
+            .Replacement.Text = "^pATA nº sessenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6626,8 +6620,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e cinco/"
-            .Replacement.Text = "^pATA n� sessenta e cinco/^p"
+            .Text = "ATA nº sessenta e cinco/"
+            .Replacement.Text = "^pATA nº sessenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6639,8 +6633,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e seis/"
-            .Replacement.Text = "^pATA n� sessenta e seis/^p"
+            .Text = "ATA nº sessenta e seis/"
+            .Replacement.Text = "^pATA nº sessenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6652,8 +6646,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e sete/"
-            .Replacement.Text = "^pATA n� sessenta e sete/^p"
+            .Text = "ATA nº sessenta e sete/"
+            .Replacement.Text = "^pATA nº sessenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6665,8 +6659,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e oito/"
-            .Replacement.Text = "^pATA n� sessenta e oito/^p"
+            .Text = "ATA nº sessenta e oito/"
+            .Replacement.Text = "^pATA nº sessenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6678,8 +6672,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e nove/"
-            .Replacement.Text = "^pATA n� sessenta e nove/^p"
+            .Text = "ATA nº sessenta e nove/"
+            .Replacement.Text = "^pATA nº sessenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6691,8 +6685,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta/"
-            .Replacement.Text = "^pATA n� setenta/^p"
+            .Text = "ATA nº setenta/"
+            .Replacement.Text = "^pATA nº setenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6704,8 +6698,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e um/"
-            .Replacement.Text = "^pATA n� setenta e um/^p"
+            .Text = "ATA nº setenta e um/"
+            .Replacement.Text = "^pATA nº setenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6717,8 +6711,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e dois/"
-            .Replacement.Text = "^pATA n� setenta e dois/^p"
+            .Text = "ATA nº setenta e dois/"
+            .Replacement.Text = "^pATA nº setenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6730,8 +6724,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e tr�s/"
-            .Replacement.Text = "^pATA n� setenta e tr�s/^p"
+            .Text = "ATA nº setenta e três/"
+            .Replacement.Text = "^pATA nº setenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6743,8 +6737,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e quatro/"
-            .Replacement.Text = "^pATA n� setenta e quatro/^p"
+            .Text = "ATA nº setenta e quatro/"
+            .Replacement.Text = "^pATA nº setenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6756,8 +6750,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e cinco/"
-            .Replacement.Text = "^pATA n� setenta e cinco/^p"
+            .Text = "ATA nº setenta e cinco/"
+            .Replacement.Text = "^pATA nº setenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6769,8 +6763,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e seis/"
-            .Replacement.Text = "^pATA n� setenta e seis/^p"
+            .Text = "ATA nº setenta e seis/"
+            .Replacement.Text = "^pATA nº setenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6782,8 +6776,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e sete/"
-            .Replacement.Text = "^pATA n� setenta e sete/^p"
+            .Text = "ATA nº setenta e sete/"
+            .Replacement.Text = "^pATA nº setenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6795,8 +6789,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e oito/"
-            .Replacement.Text = "^pATA n� setenta e oito/^p"
+            .Text = "ATA nº setenta e oito/"
+            .Replacement.Text = "^pATA nº setenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6808,8 +6802,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e nove/"
-            .Replacement.Text = "^pATA n� setenta e nove/^p"
+            .Text = "ATA nº setenta e nove/"
+            .Replacement.Text = "^pATA nº setenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6821,8 +6815,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta/"
-            .Replacement.Text = "^pATA n� oitenta/^p"
+            .Text = "ATA nº oitenta/"
+            .Replacement.Text = "^pATA nº oitenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6834,8 +6828,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e um/"
-            .Replacement.Text = "^pATA n� oitenta e um/^p"
+            .Text = "ATA nº oitenta e um/"
+            .Replacement.Text = "^pATA nº oitenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6847,8 +6841,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e dois/"
-            .Replacement.Text = "^pATA n� oitenta e dois/^p"
+            .Text = "ATA nº oitenta e dois/"
+            .Replacement.Text = "^pATA nº oitenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6860,8 +6854,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e tr�s/"
-            .Replacement.Text = "^pATA n� oitenta e tr�s/^p"
+            .Text = "ATA nº oitenta e três/"
+            .Replacement.Text = "^pATA nº oitenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6873,8 +6867,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e quatro/"
-            .Replacement.Text = "^pATA n� oitenta e quatro/^p"
+            .Text = "ATA nº oitenta e quatro/"
+            .Replacement.Text = "^pATA nº oitenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6886,8 +6880,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e cinco/"
-            .Replacement.Text = "^pATA n� oitenta e cinco/^p"
+            .Text = "ATA nº oitenta e cinco/"
+            .Replacement.Text = "^pATA nº oitenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6899,8 +6893,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e seis/"
-            .Replacement.Text = "^pATA n� oitenta e seis/^p"
+            .Text = "ATA nº oitenta e seis/"
+            .Replacement.Text = "^pATA nº oitenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6912,8 +6906,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e sete/"
-            .Replacement.Text = "^pATA n� oitenta e sete/^p"
+            .Text = "ATA nº oitenta e sete/"
+            .Replacement.Text = "^pATA nº oitenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6925,8 +6919,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e oito/"
-            .Replacement.Text = "^pATA n� oitenta e oito/^p"
+            .Text = "ATA nº oitenta e oito/"
+            .Replacement.Text = "^pATA nº oitenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6938,8 +6932,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e nove/"
-            .Replacement.Text = "^pATA n� oitenta e nove/^p"
+            .Text = "ATA nº oitenta e nove/"
+            .Replacement.Text = "^pATA nº oitenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6951,8 +6945,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa/"
-            .Replacement.Text = "^pATA n� noventa/^p"
+            .Text = "ATA nº noventa/"
+            .Replacement.Text = "^pATA nº noventa/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6964,8 +6958,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e um/"
-            .Replacement.Text = "^pATA n� noventa e um/^p"
+            .Text = "ATA nº noventa e um/"
+            .Replacement.Text = "^pATA nº noventa e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6977,8 +6971,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e dois/"
-            .Replacement.Text = "^pATA n� noventa e dois/^p"
+            .Text = "ATA nº noventa e dois/"
+            .Replacement.Text = "^pATA nº noventa e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -6990,8 +6984,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e tr�s/"
-            .Replacement.Text = "^pATA n� noventa e tr�s/^p"
+            .Text = "ATA nº noventa e três/"
+            .Replacement.Text = "^pATA nº noventa e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -7003,8 +6997,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e quatro/"
-            .Replacement.Text = "^pATA n� noventa e quatro/^p"
+            .Text = "ATA nº noventa e quatro/"
+            .Replacement.Text = "^pATA nº noventa e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -7016,8 +7010,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e cinco/"
-            .Replacement.Text = "^pATA n� noventa e cinco/^p"
+            .Text = "ATA nº noventa e cinco/"
+            .Replacement.Text = "^pATA nº noventa e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -7029,8 +7023,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e seis/"
-            .Replacement.Text = "^pATA n� noventa e seis/^p"
+            .Text = "ATA nº noventa e seis/"
+            .Replacement.Text = "^pATA nº noventa e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -7042,8 +7036,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e sete/"
-            .Replacement.Text = "^pATA n� noventa e sete/^p"
+            .Text = "ATA nº noventa e sete/"
+            .Replacement.Text = "^pATA nº noventa e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -7055,8 +7049,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e oito/"
-            .Replacement.Text = "^pATA n� noventa e oito/^p"
+            .Text = "ATA nº noventa e oito/"
+            .Replacement.Text = "^pATA nº noventa e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -7068,8 +7062,8 @@ Sub BocaDeUrna2()
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e nove/"
-            .Replacement.Text = "^pATA n� noventa e nove/^p"
+            .Text = "ATA nº noventa e nove/"
+            .Replacement.Text = "^pATA nº noventa e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -7083,7 +7077,7 @@ Sub BocaDeUrna2()
 
 
     MsgBox "Parte 2 ok", vbInformation, "Show de bola!"
-
+    
 End Sub
 Sub BocaDeUrna3()
 '
@@ -7093,14 +7087,14 @@ Sub BocaDeUrna3()
 
 
 
-        ' QuebraT�tuloSe��es Macro
+        ' QuebraTítuloSeções Macro
         '
         '
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "SESS�O PLEN�RIA ORDIN�RIA"
-                .Replacement.Text = "^pSESS�O PLEN�RIA ORDIN�RIA^p"
+                .Text = "SESSÃO PLENÁRIA ORDINÁRIA"
+                .Replacement.Text = "^pSESSÃO PLENÁRIA ORDINÁRIA^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -7114,8 +7108,8 @@ Sub BocaDeUrna3()
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "PER�ODO DAS COMUNICA��ES"
-                .Replacement.Text = "^pPER�ODO DAS COMUNICA��ES^p"
+                .Text = "PERÍODO DAS COMUNICAÇÕES"
+                .Replacement.Text = "^pPERÍODO DAS COMUNICAÇÕES^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -7129,8 +7123,8 @@ Sub BocaDeUrna3()
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "PER�ODO DAS COMUNICA��ES"
-                .Replacement.Text = "^pPER�ODO DAS COMUNICA��ES^p"
+                .Text = "PERÍODO DAS COMUNICAÇÕES"
+                .Replacement.Text = "^pPERÍODO DAS COMUNICAÇÕES^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -7158,8 +7152,8 @@ Sub BocaDeUrna3()
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "ESPA�O DE LIDERAN�A"
-                .Replacement.Text = "^pESPA�O DE LIDERAN�A^p"
+                .Text = "ESPAÇO DE LIDERANÇA"
+                .Replacement.Text = "^pESPAÇO DE LIDERANÇA^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -7173,8 +7167,8 @@ Sub BocaDeUrna3()
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "ESPA�O DE LIDERAN�A"
-                .Replacement.Text = "^pESPA�O DE LIDERAN�A^p"
+                .Text = "ESPAÇO DE LIDERANÇA"
+                .Replacement.Text = "^pESPAÇO DE LIDERANÇA^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -7187,8 +7181,8 @@ Sub BocaDeUrna3()
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "ESPA�O DE LIDERAN�A"
-                .Replacement.Text = "^pESPA�O DE LIDERAN�A^p"
+                .Text = "ESPAÇO DE LIDERANÇA"
+                .Replacement.Text = "^pESPAÇO DE LIDERANÇA^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -7199,15 +7193,15 @@ Sub BocaDeUrna3()
                 .MatchAllWordForms = False
             End With
 
-            ' AtribuiEstiloSe��es Macro
+            ' AtribuiEstiloSeções Macro
             '
             '
                 Selection.Find.ClearFormatting
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 1")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 1")
                 With Selection.Find
-                    .Text = "ATA n�"
-                    .Replacement.Text = "ATA n�"
+                    .Text = "ATA nº"
+                    .Replacement.Text = "ATA nº"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7220,10 +7214,10 @@ Sub BocaDeUrna3()
                 Selection.Find.Execute Replace:=wdReplaceAll
                 Selection.Find.ClearFormatting
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 2")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 2")
                 With Selection.Find
-                    .Text = "SESS�O PLEN�RIA ORDIN�RIA"
-                    .Replacement.Text = "SESS�O PLEN�RIA ORDIN�RIA"
+                    .Text = "SESSÃO PLENÁRIA ORDINÁRIA"
+                    .Replacement.Text = "SESSÃO PLENÁRIA ORDINÁRIA"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7236,10 +7230,10 @@ Sub BocaDeUrna3()
                 Selection.Find.Execute Replace:=wdReplaceAll
                 Selection.Find.ClearFormatting
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 2")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 2")
                 With Selection.Find
-                    .Text = "PER�ODO DAS COMUNICA��ES"
-                    .Replacement.Text = "PER�ODO DAS COMUNICA��ES"
+                    .Text = "PERÍODO DAS COMUNICAÇÕES"
+                    .Replacement.Text = "PERÍODO DAS COMUNICAÇÕES"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7264,8 +7258,8 @@ Sub BocaDeUrna3()
                 End With
                 Selection.Find.Execute Replace:=wdReplaceAll
                 With Selection.Find
-                    .Text = "ESPA�O DE LIDERAN�A"
-                    .Replacement.Text = "ESPA�O DE LIDERAN�A"
+                    .Text = "ESPAÇO DE LIDERANÇA"
+                    .Replacement.Text = "ESPAÇO DE LIDERANÇA"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7405,8 +7399,8 @@ Sub BocaDeUrna3()
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Jo�o Kaus"
-                    .Replacement.Text = "^pVereador Jo�o Kaus^p"
+                    .Text = "Vereador João Kaus"
+                    .Replacement.Text = "^pVereador João Kaus^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7422,8 +7416,8 @@ Sub BocaDeUrna3()
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Jo�o Chaves"
-                    .Replacement.Text = "^pVereador Jo�o Chaves^p"
+                    .Text = "Vereador João Chaves"
+                    .Replacement.Text = "^pVereador João Chaves^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7439,8 +7433,8 @@ Sub BocaDeUrna3()
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Jo�o Ricardo Vargas"
-                    .Replacement.Text = "^pVereador Jo�o Ricardo Vargas^p"
+                    .Text = "Vereador João Ricardo Vargas"
+                    .Replacement.Text = "^pVereador João Ricardo Vargas^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7626,8 +7620,8 @@ Sub BocaDeUrna3()
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Ov�dio Mayer"
-                    .Replacement.Text = "^pVereador Ov�dio Mayer^p"
+                    .Text = "Vereador Ovídio Mayer"
+                    .Replacement.Text = "^pVereador Ovídio Mayer^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7660,8 +7654,8 @@ Sub BocaDeUrna3()
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Vanderlei Ara�jo"
-                    .Replacement.Text = "^pVereador Vanderlei Ara�jo^p"
+                    .Text = "Vereador Vanderlei Araújo"
+                    .Replacement.Text = "^pVereador Vanderlei Araújo^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7677,8 +7671,8 @@ Sub BocaDeUrna3()
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Andr� Agne Domingues"
-                    .Replacement.Text = "^pVereador Andr� Agne Domingues^p"
+                    .Text = "Vereador André Agne Domingues"
+                    .Replacement.Text = "^pVereador André Agne Domingues^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7714,7 +7708,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Adelar Vargas"
                     .Replacement.Text = "Vereador Adelar Vargas"
@@ -7731,7 +7725,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Admar Pozzobom"
                     .Replacement.Text = "Vereador Admar Pozzobom"
@@ -7748,7 +7742,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Alexandre Vargas"
                     .Replacement.Text = "Vereador Alexandre Vargas"
@@ -7765,7 +7759,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Celita da Silva"
                     .Replacement.Text = "Vereadora Celita da Silva"
@@ -7782,7 +7776,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Daniel Diniz"
                     .Replacement.Text = "Vereador Daniel Diniz"
@@ -7799,7 +7793,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Deili Silva"
                     .Replacement.Text = "Vereadora Deili Silva"
@@ -7816,7 +7810,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Francisco Harrisson"
                     .Replacement.Text = "Vereador Francisco Harrisson"
@@ -7833,10 +7827,10 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Jo�o Kaus"
-                    .Replacement.Text = "Vereador Jo�o Kaus"
+                    .Text = "Vereador João Kaus"
+                    .Replacement.Text = "Vereador João Kaus"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7850,10 +7844,10 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Jo�o Chaves"
-                    .Replacement.Text = "Vereador Jo�o Chaves"
+                    .Text = "Vereador João Chaves"
+                    .Replacement.Text = "Vereador João Chaves"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7867,10 +7861,10 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Jo�o Ricardo Vargas"
-                    .Replacement.Text = "Vereador Jo�o Ricardo Vargas"
+                    .Text = "Vereador João Ricardo Vargas"
+                    .Replacement.Text = "Vereador João Ricardo Vargas"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -7884,7 +7878,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Jorge Trindade Soares"
                     .Replacement.Text = "Vereador Jorge Trindade Soares"
@@ -7901,7 +7895,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Juliano Soares"
                     .Replacement.Text = "Vereador Juliano Soares"
@@ -7918,7 +7912,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Leopoldo Ochulaki"
                     .Replacement.Text = "Vereador Leopoldo Ochulaki"
@@ -7935,7 +7929,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Leopoldo Vanderlei Ochulaki"
                     .Replacement.Text = "Vereador Leopoldo Vanderlei Ochulaki"
@@ -7952,7 +7946,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Luci Duartes"
                     .Replacement.Text = "Vereadora Luci Duartes"
@@ -7969,7 +7963,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Luciano Guerra"
                     .Replacement.Text = "Vereador Luciano Guerra"
@@ -7986,7 +7980,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Manoel Badke"
                     .Replacement.Text = "Vereador Manoel Badke"
@@ -8003,7 +7997,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Maria Aparecida Brizola"
                     .Replacement.Text = "Vereadora Maria Aparecida Brizola"
@@ -8020,7 +8014,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Marion Mortari"
                     .Replacement.Text = "Vereador Marion Mortari"
@@ -8037,7 +8031,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Marta Zanella"
                     .Replacement.Text = "Vereadora Marta Zanella"
@@ -8054,10 +8048,10 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Ov�dio Mayer"
-                    .Replacement.Text = "Vereador Ov�dio Mayer"
+                    .Text = "Vereador Ovídio Mayer"
+                    .Replacement.Text = "Vereador Ovídio Mayer"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -8071,7 +8065,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Valdir Oliveira"
                     .Replacement.Text = "Vereador Valdir Oliveira"
@@ -8088,10 +8082,10 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Vanderlei Ara�jo"
-                    .Replacement.Text = "Vereador Vanderlei Ara�jo"
+                    .Text = "Vereador Vanderlei Araújo"
+                    .Replacement.Text = "Vereador Vanderlei Araújo"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -8105,10 +8099,10 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Andr� Agne Domingues"
-                    .Replacement.Text = "Vereador Andr� Agne Domingues"
+                    .Text = "Vereador André Agne Domingues"
+                    .Replacement.Text = "Vereador André Agne Domingues"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -8122,7 +8116,7 @@ Sub BocaDeUrna3()
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Cezar Gehm"
                     .Replacement.Text = "Vereador Cezar Gehm"
@@ -8192,7 +8186,7 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "C�MARA MUNICIPAL DE VEREADORES DE SANTA MARIA � RS" & vbTab _
+        .Text = "CÂMARA MUNICIPAL DE VEREADORES DE SANTA MARIA – RS" & vbTab _
             & "CSS/"
         .Replacement.Text = " "
         .Forward = True
@@ -8324,14 +8318,14 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     Selection.Find.Execute Replace:=wdReplaceAll
 
     ' AlgarismosParaNumExtensoAtasBocaDeUrna2020 Macro
-    ' Altera algarismos de 01 a 99 do t�tulo das atas para n�meros por extenso para tratamento de atas no projeto Boca de Urna 2020.
-    ' Adaptado para tr�s digitos no n�mero da ata, como as atas de 2017
+    ' Altera algarismos de 01 a 99 do título das atas para números por extenso para tratamento de atas no projeto Boca de Urna 2020.
+    ' Adaptado para três digitos no número da ata, como as atas de 2017
     '
         Selection.Find.ClearFormatting
         Selection.Find.Replacement.ClearFormatting
     With Selection.Find
-        .Text = "ATA n� 001 /"
-        .Replacement.Text = "ATA n� um/"
+        .Text = "ATA nº 001 /"
+        .Replacement.Text = "ATA nº um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8343,8 +8337,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 002 /"
-        .Replacement.Text = "ATA n� dois/"
+        .Text = "ATA nº 002 /"
+        .Replacement.Text = "ATA nº dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8356,8 +8350,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 003 /"
-        .Replacement.Text = "ATA n� tr�s/"
+        .Text = "ATA nº 003 /"
+        .Replacement.Text = "ATA nº três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8369,8 +8363,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 004 /"
-        .Replacement.Text = "ATA n� quatro/"
+        .Text = "ATA nº 004 /"
+        .Replacement.Text = "ATA nº quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8382,8 +8376,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 005 /"
-        .Replacement.Text = "ATA n� cinco/"
+        .Text = "ATA nº 005 /"
+        .Replacement.Text = "ATA nº cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8395,8 +8389,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 006 /"
-        .Replacement.Text = "ATA n� seis/"
+        .Text = "ATA nº 006 /"
+        .Replacement.Text = "ATA nº seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8408,8 +8402,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 007 /"
-        .Replacement.Text = "ATA n� sete/"
+        .Text = "ATA nº 007 /"
+        .Replacement.Text = "ATA nº sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8421,8 +8415,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 008 /"
-        .Replacement.Text = "ATA n� oito/"
+        .Text = "ATA nº 008 /"
+        .Replacement.Text = "ATA nº oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8434,8 +8428,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 009 /"
-        .Replacement.Text = "ATA n� nove/"
+        .Text = "ATA nº 009 /"
+        .Replacement.Text = "ATA nº nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8447,8 +8441,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 010 /"
-        .Replacement.Text = "ATA n� dez/"
+        .Text = "ATA nº 010 /"
+        .Replacement.Text = "ATA nº dez/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8460,8 +8454,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 011 /"
-        .Replacement.Text = "ATA n� onze/"
+        .Text = "ATA nº 011 /"
+        .Replacement.Text = "ATA nº onze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8473,8 +8467,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 012 /"
-        .Replacement.Text = "ATA n� doze/"
+        .Text = "ATA nº 012 /"
+        .Replacement.Text = "ATA nº doze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8486,8 +8480,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 013 /"
-        .Replacement.Text = "ATA n� treze/"
+        .Text = "ATA nº 013 /"
+        .Replacement.Text = "ATA nº treze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8499,8 +8493,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 014 /"
-        .Replacement.Text = "ATA n� quatorze/"
+        .Text = "ATA nº 014 /"
+        .Replacement.Text = "ATA nº quatorze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8512,8 +8506,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 015 /"
-        .Replacement.Text = "ATA n� quinze/"
+        .Text = "ATA nº 015 /"
+        .Replacement.Text = "ATA nº quinze/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8525,8 +8519,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 016 /"
-        .Replacement.Text = "ATA n� dezesseis/"
+        .Text = "ATA nº 016 /"
+        .Replacement.Text = "ATA nº dezesseis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8538,8 +8532,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 017 /"
-        .Replacement.Text = "ATA n� dezessete/"
+        .Text = "ATA nº 017 /"
+        .Replacement.Text = "ATA nº dezessete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8551,8 +8545,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 018 /"
-        .Replacement.Text = "ATA n� dezoito/"
+        .Text = "ATA nº 018 /"
+        .Replacement.Text = "ATA nº dezoito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8564,8 +8558,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 019 /"
-        .Replacement.Text = "ATA n� dezenove/"
+        .Text = "ATA nº 019 /"
+        .Replacement.Text = "ATA nº dezenove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8577,8 +8571,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 020 /"
-        .Replacement.Text = "ATA n� vinte/"
+        .Text = "ATA nº 020 /"
+        .Replacement.Text = "ATA nº vinte/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8590,8 +8584,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 021 /"
-        .Replacement.Text = "ATA n� vinte e um/"
+        .Text = "ATA nº 021 /"
+        .Replacement.Text = "ATA nº vinte e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8603,8 +8597,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 022 /"
-        .Replacement.Text = "ATA n� vinte e dois/"
+        .Text = "ATA nº 022 /"
+        .Replacement.Text = "ATA nº vinte e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8616,8 +8610,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 023 /"
-        .Replacement.Text = "ATA n� vinte e tr�s/"
+        .Text = "ATA nº 023 /"
+        .Replacement.Text = "ATA nº vinte e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8629,8 +8623,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 024 /"
-        .Replacement.Text = "ATA n� vinte e quatro/"
+        .Text = "ATA nº 024 /"
+        .Replacement.Text = "ATA nº vinte e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8642,8 +8636,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 025 /"
-        .Replacement.Text = "ATA n� vinte e cinco/"
+        .Text = "ATA nº 025 /"
+        .Replacement.Text = "ATA nº vinte e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8655,8 +8649,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 026 /"
-        .Replacement.Text = "ATA n� vinte e seis/"
+        .Text = "ATA nº 026 /"
+        .Replacement.Text = "ATA nº vinte e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8668,8 +8662,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 027 /"
-        .Replacement.Text = "ATA n� vinte e sete/"
+        .Text = "ATA nº 027 /"
+        .Replacement.Text = "ATA nº vinte e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8681,8 +8675,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 028 /"
-        .Replacement.Text = "ATA n� vinte e oito/"
+        .Text = "ATA nº 028 /"
+        .Replacement.Text = "ATA nº vinte e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8694,8 +8688,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 029 /"
-        .Replacement.Text = "ATA n� vinte e nove/"
+        .Text = "ATA nº 029 /"
+        .Replacement.Text = "ATA nº vinte e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8707,8 +8701,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 030 /"
-        .Replacement.Text = "ATA n� trinta/"
+        .Text = "ATA nº 030 /"
+        .Replacement.Text = "ATA nº trinta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8720,8 +8714,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 031 /"
-        .Replacement.Text = "ATA n� trinta e um/"
+        .Text = "ATA nº 031 /"
+        .Replacement.Text = "ATA nº trinta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8733,8 +8727,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 032 /"
-        .Replacement.Text = "ATA n� trinta e dois/"
+        .Text = "ATA nº 032 /"
+        .Replacement.Text = "ATA nº trinta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8746,8 +8740,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 033 /"
-        .Replacement.Text = "ATA n� trinta e tr�s/"
+        .Text = "ATA nº 033 /"
+        .Replacement.Text = "ATA nº trinta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8759,8 +8753,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 034 /"
-        .Replacement.Text = "ATA n� trinta e quatro/"
+        .Text = "ATA nº 034 /"
+        .Replacement.Text = "ATA nº trinta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8772,8 +8766,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 035 /"
-        .Replacement.Text = "ATA n� trinta e cinco/"
+        .Text = "ATA nº 035 /"
+        .Replacement.Text = "ATA nº trinta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8785,8 +8779,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 036 /"
-        .Replacement.Text = "ATA n� trinta e seis/"
+        .Text = "ATA nº 036 /"
+        .Replacement.Text = "ATA nº trinta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8798,8 +8792,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 037 /"
-        .Replacement.Text = "ATA n� trinta e sete/"
+        .Text = "ATA nº 037 /"
+        .Replacement.Text = "ATA nº trinta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8811,8 +8805,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 038 /"
-        .Replacement.Text = "ATA n� trinta e oito/"
+        .Text = "ATA nº 038 /"
+        .Replacement.Text = "ATA nº trinta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8824,8 +8818,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 039 /"
-        .Replacement.Text = "ATA n� trinta e nove/"
+        .Text = "ATA nº 039 /"
+        .Replacement.Text = "ATA nº trinta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8837,8 +8831,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 040 /"
-        .Replacement.Text = "ATA n� quarenta/"
+        .Text = "ATA nº 040 /"
+        .Replacement.Text = "ATA nº quarenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8850,8 +8844,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 041 /"
-        .Replacement.Text = "ATA n� quarenta e um/"
+        .Text = "ATA nº 041 /"
+        .Replacement.Text = "ATA nº quarenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8863,8 +8857,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 042 /"
-        .Replacement.Text = "ATA n� quarenta e dois/"
+        .Text = "ATA nº 042 /"
+        .Replacement.Text = "ATA nº quarenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8876,8 +8870,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 043 /"
-        .Replacement.Text = "ATA n� quarenta e tr�s/"
+        .Text = "ATA nº 043 /"
+        .Replacement.Text = "ATA nº quarenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8889,8 +8883,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 044 /"
-        .Replacement.Text = "ATA n� quarenta e quatro/"
+        .Text = "ATA nº 044 /"
+        .Replacement.Text = "ATA nº quarenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8902,8 +8896,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 045 /"
-        .Replacement.Text = "ATA n� quarenta e cinco/"
+        .Text = "ATA nº 045 /"
+        .Replacement.Text = "ATA nº quarenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8915,8 +8909,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 046 /"
-        .Replacement.Text = "ATA n� quarenta e seis/"
+        .Text = "ATA nº 046 /"
+        .Replacement.Text = "ATA nº quarenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8928,8 +8922,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 047 /"
-        .Replacement.Text = "ATA n� quarenta e sete/"
+        .Text = "ATA nº 047 /"
+        .Replacement.Text = "ATA nº quarenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8941,8 +8935,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 048 /"
-        .Replacement.Text = "ATA n� quarenta e oito/"
+        .Text = "ATA nº 048 /"
+        .Replacement.Text = "ATA nº quarenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8954,8 +8948,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 049 /"
-        .Replacement.Text = "ATA n� quarenta e nove/"
+        .Text = "ATA nº 049 /"
+        .Replacement.Text = "ATA nº quarenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8967,8 +8961,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 050 /"
-        .Replacement.Text = "ATA n� cinquenta/"
+        .Text = "ATA nº 050 /"
+        .Replacement.Text = "ATA nº cinquenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8980,8 +8974,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 051 /"
-        .Replacement.Text = "ATA n� cinquenta e um/"
+        .Text = "ATA nº 051 /"
+        .Replacement.Text = "ATA nº cinquenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -8993,8 +8987,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 052 /"
-        .Replacement.Text = "ATA n� cinquenta e dois/"
+        .Text = "ATA nº 052 /"
+        .Replacement.Text = "ATA nº cinquenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9006,8 +9000,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 053 /"
-        .Replacement.Text = "ATA n� cinquenta e tr�s/"
+        .Text = "ATA nº 053 /"
+        .Replacement.Text = "ATA nº cinquenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9019,8 +9013,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 054 /"
-        .Replacement.Text = "ATA n� cinquenta e quatro/"
+        .Text = "ATA nº 054 /"
+        .Replacement.Text = "ATA nº cinquenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9032,8 +9026,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 055 /"
-        .Replacement.Text = "ATA n� cinquenta e cinco/"
+        .Text = "ATA nº 055 /"
+        .Replacement.Text = "ATA nº cinquenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9045,8 +9039,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 056 /"
-        .Replacement.Text = "ATA n� cinquenta e seis/"
+        .Text = "ATA nº 056 /"
+        .Replacement.Text = "ATA nº cinquenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9058,8 +9052,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 057 /"
-        .Replacement.Text = "ATA n� cinquenta e sete/"
+        .Text = "ATA nº 057 /"
+        .Replacement.Text = "ATA nº cinquenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9071,8 +9065,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 058 /"
-        .Replacement.Text = "ATA n� cinquenta e oito/"
+        .Text = "ATA nº 058 /"
+        .Replacement.Text = "ATA nº cinquenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9084,8 +9078,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 059 /"
-        .Replacement.Text = "ATA n� cinquenta e nove/"
+        .Text = "ATA nº 059 /"
+        .Replacement.Text = "ATA nº cinquenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9097,8 +9091,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 060 /"
-        .Replacement.Text = "ATA n� sessenta/"
+        .Text = "ATA nº 060 /"
+        .Replacement.Text = "ATA nº sessenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9110,8 +9104,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 061 /"
-        .Replacement.Text = "ATA n� sessenta e um/"
+        .Text = "ATA nº 061 /"
+        .Replacement.Text = "ATA nº sessenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9123,8 +9117,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 062 /"
-        .Replacement.Text = "ATA n� sessenta e dois/"
+        .Text = "ATA nº 062 /"
+        .Replacement.Text = "ATA nº sessenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9136,8 +9130,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 063 /"
-        .Replacement.Text = "ATA n� sessenta e tr�s/"
+        .Text = "ATA nº 063 /"
+        .Replacement.Text = "ATA nº sessenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9149,8 +9143,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 064 /"
-        .Replacement.Text = "ATA n� sessenta e quatro/"
+        .Text = "ATA nº 064 /"
+        .Replacement.Text = "ATA nº sessenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9162,8 +9156,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 065 /"
-        .Replacement.Text = "ATA n� sessenta e cinco/"
+        .Text = "ATA nº 065 /"
+        .Replacement.Text = "ATA nº sessenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9175,8 +9169,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 066 /"
-        .Replacement.Text = "ATA n� sessenta e seis/"
+        .Text = "ATA nº 066 /"
+        .Replacement.Text = "ATA nº sessenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9188,8 +9182,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 067 /"
-        .Replacement.Text = "ATA n� sessenta e sete/"
+        .Text = "ATA nº 067 /"
+        .Replacement.Text = "ATA nº sessenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9201,8 +9195,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 068 /"
-        .Replacement.Text = "ATA n� sessenta e oito/"
+        .Text = "ATA nº 068 /"
+        .Replacement.Text = "ATA nº sessenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9214,8 +9208,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 069 /"
-        .Replacement.Text = "ATA n� sessenta e nove/"
+        .Text = "ATA nº 069 /"
+        .Replacement.Text = "ATA nº sessenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9227,8 +9221,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 070 /"
-        .Replacement.Text = "ATA n� setenta/"
+        .Text = "ATA nº 070 /"
+        .Replacement.Text = "ATA nº setenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9240,8 +9234,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 071 /"
-        .Replacement.Text = "ATA n� setenta e um/"
+        .Text = "ATA nº 071 /"
+        .Replacement.Text = "ATA nº setenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9253,8 +9247,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 072 /"
-        .Replacement.Text = "ATA n� setenta e dois/"
+        .Text = "ATA nº 072 /"
+        .Replacement.Text = "ATA nº setenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9266,8 +9260,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 073 /"
-        .Replacement.Text = "ATA n� setenta e tr�s/"
+        .Text = "ATA nº 073 /"
+        .Replacement.Text = "ATA nº setenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9279,8 +9273,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 074 /"
-        .Replacement.Text = "ATA n� setenta e quatro/"
+        .Text = "ATA nº 074 /"
+        .Replacement.Text = "ATA nº setenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9292,8 +9286,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 075 /"
-        .Replacement.Text = "ATA n� setenta e cinco/"
+        .Text = "ATA nº 075 /"
+        .Replacement.Text = "ATA nº setenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9305,8 +9299,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 076 /"
-        .Replacement.Text = "ATA n� setenta e seis/"
+        .Text = "ATA nº 076 /"
+        .Replacement.Text = "ATA nº setenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9318,8 +9312,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 077 /"
-        .Replacement.Text = "ATA n� setenta e sete/"
+        .Text = "ATA nº 077 /"
+        .Replacement.Text = "ATA nº setenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9331,8 +9325,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 078 /"
-        .Replacement.Text = "ATA n� setenta e oito/"
+        .Text = "ATA nº 078 /"
+        .Replacement.Text = "ATA nº setenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9344,8 +9338,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 079 /"
-        .Replacement.Text = "ATA n� setenta e nove/"
+        .Text = "ATA nº 079 /"
+        .Replacement.Text = "ATA nº setenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9357,8 +9351,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 080 /"
-        .Replacement.Text = "ATA n� oitenta/"
+        .Text = "ATA nº 080 /"
+        .Replacement.Text = "ATA nº oitenta/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9370,8 +9364,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 081 /"
-        .Replacement.Text = "ATA n� oitenta e um/"
+        .Text = "ATA nº 081 /"
+        .Replacement.Text = "ATA nº oitenta e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9383,8 +9377,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 082 /"
-        .Replacement.Text = "ATA n� oitenta e dois/"
+        .Text = "ATA nº 082 /"
+        .Replacement.Text = "ATA nº oitenta e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9396,8 +9390,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 083 /"
-        .Replacement.Text = "ATA n� oitenta e tr�s/"
+        .Text = "ATA nº 083 /"
+        .Replacement.Text = "ATA nº oitenta e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9409,8 +9403,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 084 /"
-        .Replacement.Text = "ATA n� oitenta e quatro/"
+        .Text = "ATA nº 084 /"
+        .Replacement.Text = "ATA nº oitenta e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9422,8 +9416,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 085 /"
-        .Replacement.Text = "ATA n� oitenta e cinco/"
+        .Text = "ATA nº 085 /"
+        .Replacement.Text = "ATA nº oitenta e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9435,8 +9429,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 086 /"
-        .Replacement.Text = "ATA n� oitenta e seis/"
+        .Text = "ATA nº 086 /"
+        .Replacement.Text = "ATA nº oitenta e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9448,8 +9442,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 087 /"
-        .Replacement.Text = "ATA n� oitenta e sete/"
+        .Text = "ATA nº 087 /"
+        .Replacement.Text = "ATA nº oitenta e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9461,8 +9455,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 088 /"
-        .Replacement.Text = "ATA n� oitenta e oito/"
+        .Text = "ATA nº 088 /"
+        .Replacement.Text = "ATA nº oitenta e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9474,8 +9468,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 089 /"
-        .Replacement.Text = "ATA n� oitenta e nove/"
+        .Text = "ATA nº 089 /"
+        .Replacement.Text = "ATA nº oitenta e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9487,8 +9481,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 090 /"
-        .Replacement.Text = "ATA n� noventa/"
+        .Text = "ATA nº 090 /"
+        .Replacement.Text = "ATA nº noventa/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9500,8 +9494,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 091 /"
-        .Replacement.Text = "ATA n� noventa e um/"
+        .Text = "ATA nº 091 /"
+        .Replacement.Text = "ATA nº noventa e um/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9513,8 +9507,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 092 /"
-        .Replacement.Text = "ATA n� noventa e dois/"
+        .Text = "ATA nº 092 /"
+        .Replacement.Text = "ATA nº noventa e dois/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9526,8 +9520,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 093 /"
-        .Replacement.Text = "ATA n� noventa e tr�s/"
+        .Text = "ATA nº 093 /"
+        .Replacement.Text = "ATA nº noventa e três/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9539,8 +9533,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 094 /"
-        .Replacement.Text = "ATA n� noventa e quatro/"
+        .Text = "ATA nº 094 /"
+        .Replacement.Text = "ATA nº noventa e quatro/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9552,8 +9546,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 095 /"
-        .Replacement.Text = "ATA n� noventa e cinco/"
+        .Text = "ATA nº 095 /"
+        .Replacement.Text = "ATA nº noventa e cinco/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9565,8 +9559,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 096 /"
-        .Replacement.Text = "ATA n� noventa e seis/"
+        .Text = "ATA nº 096 /"
+        .Replacement.Text = "ATA nº noventa e seis/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9578,8 +9572,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 097 /"
-        .Replacement.Text = "ATA n� noventa e sete/"
+        .Text = "ATA nº 097 /"
+        .Replacement.Text = "ATA nº noventa e sete/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9591,8 +9585,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 098 /"
-        .Replacement.Text = "ATA n� noventa e oito/"
+        .Text = "ATA nº 098 /"
+        .Replacement.Text = "ATA nº noventa e oito/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9604,8 +9598,8 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "ATA n� 099 /"
-        .Replacement.Text = "ATA n� noventa e nove/"
+        .Text = "ATA nº 099 /"
+        .Replacement.Text = "ATA nº noventa e nove/"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -9620,7 +9614,7 @@ Attribute B_URNA_1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_1"
 
 
     MsgBox "Parte 1 ok", vbInformation, "Show de bola!"
-
+    
 End Sub
 Sub B_URNA_2()
 Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
@@ -9769,14 +9763,14 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
 
-        ' QuebraT�tuloAtas Macro
+        ' QuebraTítuloAtas Macro
         '
         '
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
         With Selection.Find
-            .Text = "ATA n� um/"
-            .Replacement.Text = "^pATA n� um/^p"
+            .Text = "ATA nº um/"
+            .Replacement.Text = "^pATA nº um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9788,8 +9782,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dois/"
-            .Replacement.Text = "^pATA n� dois/^p"
+            .Text = "ATA nº dois/"
+            .Replacement.Text = "^pATA nº dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9801,8 +9795,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� tr�s/"
-            .Replacement.Text = "^pATA n� tr�s/^p"
+            .Text = "ATA nº três/"
+            .Replacement.Text = "^pATA nº três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9814,8 +9808,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quatro/"
-            .Replacement.Text = "^pATA n� quatro/^p"
+            .Text = "ATA nº quatro/"
+            .Replacement.Text = "^pATA nº quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9827,8 +9821,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinco/"
-            .Replacement.Text = "^pATA n� cinco/^p"
+            .Text = "ATA nº cinco/"
+            .Replacement.Text = "^pATA nº cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9840,8 +9834,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� seis/"
-            .Replacement.Text = "^pATA n� seis/^p"
+            .Text = "ATA nº seis/"
+            .Replacement.Text = "^pATA nº seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9853,8 +9847,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sete/"
-            .Replacement.Text = "^pATA n� sete/^p"
+            .Text = "ATA nº sete/"
+            .Replacement.Text = "^pATA nº sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9866,8 +9860,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oito/"
-            .Replacement.Text = "^pATA n� oito/^p"
+            .Text = "ATA nº oito/"
+            .Replacement.Text = "^pATA nº oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9879,8 +9873,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� nove/"
-            .Replacement.Text = "^pATA n� nove/^p"
+            .Text = "ATA nº nove/"
+            .Replacement.Text = "^pATA nº nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9892,8 +9886,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dez/"
-            .Replacement.Text = "^pATA n� dez/^p"
+            .Text = "ATA nº dez/"
+            .Replacement.Text = "^pATA nº dez/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9905,8 +9899,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� onze/"
-            .Replacement.Text = "^pATA n� onze/^p"
+            .Text = "ATA nº onze/"
+            .Replacement.Text = "^pATA nº onze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9918,8 +9912,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� doze/"
-            .Replacement.Text = "^pATA n� doze/^p"
+            .Text = "ATA nº doze/"
+            .Replacement.Text = "^pATA nº doze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9931,8 +9925,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� treze/"
-            .Replacement.Text = "^pATA n� treze/^p"
+            .Text = "ATA nº treze/"
+            .Replacement.Text = "^pATA nº treze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9944,8 +9938,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quatorze/"
-            .Replacement.Text = "^pATA n� quatorze/^p"
+            .Text = "ATA nº quatorze/"
+            .Replacement.Text = "^pATA nº quatorze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9957,8 +9951,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quinze/"
-            .Replacement.Text = "^pATA n� quinze/^p"
+            .Text = "ATA nº quinze/"
+            .Replacement.Text = "^pATA nº quinze/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9970,8 +9964,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dezesseis/"
-            .Replacement.Text = "^pATA n� dezesseis/^p"
+            .Text = "ATA nº dezesseis/"
+            .Replacement.Text = "^pATA nº dezesseis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9983,8 +9977,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dezessete/"
-            .Replacement.Text = "^pATA n� dezessete/^p"
+            .Text = "ATA nº dezessete/"
+            .Replacement.Text = "^pATA nº dezessete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -9996,8 +9990,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dezoito/"
-            .Replacement.Text = "^pATA n� dezoito/^p"
+            .Text = "ATA nº dezoito/"
+            .Replacement.Text = "^pATA nº dezoito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10009,8 +10003,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� dezenove/"
-            .Replacement.Text = "^pATA n� dezenove/^p"
+            .Text = "ATA nº dezenove/"
+            .Replacement.Text = "^pATA nº dezenove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10022,8 +10016,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte/"
-            .Replacement.Text = "^pATA n� vinte/^p"
+            .Text = "ATA nº vinte/"
+            .Replacement.Text = "^pATA nº vinte/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10035,8 +10029,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e um/"
-            .Replacement.Text = "^pATA n� vinte e um/^p"
+            .Text = "ATA nº vinte e um/"
+            .Replacement.Text = "^pATA nº vinte e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10048,8 +10042,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e dois/"
-            .Replacement.Text = "^pATA n� vinte e dois/^p"
+            .Text = "ATA nº vinte e dois/"
+            .Replacement.Text = "^pATA nº vinte e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10061,8 +10055,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e tr�s/"
-            .Replacement.Text = "^pATA n� vinte e tr�s/^p"
+            .Text = "ATA nº vinte e três/"
+            .Replacement.Text = "^pATA nº vinte e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10074,8 +10068,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e quatro/"
-            .Replacement.Text = "^pATA n� vinte e quatro/^p"
+            .Text = "ATA nº vinte e quatro/"
+            .Replacement.Text = "^pATA nº vinte e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10087,8 +10081,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e cinco/"
-            .Replacement.Text = "^pATA n� vinte e cinco/^p"
+            .Text = "ATA nº vinte e cinco/"
+            .Replacement.Text = "^pATA nº vinte e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10100,8 +10094,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e seis/"
-            .Replacement.Text = "^pATA n� vinte e seis/^p"
+            .Text = "ATA nº vinte e seis/"
+            .Replacement.Text = "^pATA nº vinte e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10113,8 +10107,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e sete/"
-            .Replacement.Text = "^pATA n� vinte e sete/^p"
+            .Text = "ATA nº vinte e sete/"
+            .Replacement.Text = "^pATA nº vinte e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10126,8 +10120,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e oito/"
-            .Replacement.Text = "^pATA n� vinte e oito/^p"
+            .Text = "ATA nº vinte e oito/"
+            .Replacement.Text = "^pATA nº vinte e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10139,8 +10133,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� vinte e nove/"
-            .Replacement.Text = "^pATA n� vinte e nove/^p"
+            .Text = "ATA nº vinte e nove/"
+            .Replacement.Text = "^pATA nº vinte e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10152,8 +10146,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta/"
-            .Replacement.Text = "^pATA n� trinta/^p"
+            .Text = "ATA nº trinta/"
+            .Replacement.Text = "^pATA nº trinta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10165,8 +10159,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e um/"
-            .Replacement.Text = "^pATA n� trinta e um/^p"
+            .Text = "ATA nº trinta e um/"
+            .Replacement.Text = "^pATA nº trinta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10178,8 +10172,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e dois/"
-            .Replacement.Text = "^pATA n� trinta e dois/^p"
+            .Text = "ATA nº trinta e dois/"
+            .Replacement.Text = "^pATA nº trinta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10191,8 +10185,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e tr�s/"
-            .Replacement.Text = "^pATA n� trinta e tr�s/^p"
+            .Text = "ATA nº trinta e três/"
+            .Replacement.Text = "^pATA nº trinta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10204,8 +10198,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e quatro/"
-            .Replacement.Text = "^pATA n� trinta e quatro/^p"
+            .Text = "ATA nº trinta e quatro/"
+            .Replacement.Text = "^pATA nº trinta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10217,8 +10211,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e cinco/"
-            .Replacement.Text = "^pATA n� trinta e cinco/^p"
+            .Text = "ATA nº trinta e cinco/"
+            .Replacement.Text = "^pATA nº trinta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10230,8 +10224,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e seis/"
-            .Replacement.Text = "^pATA n� trinta e seis/^p"
+            .Text = "ATA nº trinta e seis/"
+            .Replacement.Text = "^pATA nº trinta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10243,8 +10237,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e sete/"
-            .Replacement.Text = "^pATA n� trinta e sete/^p"
+            .Text = "ATA nº trinta e sete/"
+            .Replacement.Text = "^pATA nº trinta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10256,8 +10250,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e oito/"
-            .Replacement.Text = "^pATA n� trinta e oito/^p"
+            .Text = "ATA nº trinta e oito/"
+            .Replacement.Text = "^pATA nº trinta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10269,8 +10263,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� trinta e nove/"
-            .Replacement.Text = "^pATA n� trinta e nove/^p"
+            .Text = "ATA nº trinta e nove/"
+            .Replacement.Text = "^pATA nº trinta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10282,8 +10276,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta/"
-            .Replacement.Text = "^pATA n� quarenta/^p"
+            .Text = "ATA nº quarenta/"
+            .Replacement.Text = "^pATA nº quarenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10295,8 +10289,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e um/"
-            .Replacement.Text = "^pATA n� quarenta e um/^p"
+            .Text = "ATA nº quarenta e um/"
+            .Replacement.Text = "^pATA nº quarenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10308,8 +10302,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e dois/"
-            .Replacement.Text = "^pATA n� quarenta e dois/^p"
+            .Text = "ATA nº quarenta e dois/"
+            .Replacement.Text = "^pATA nº quarenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10321,8 +10315,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e tr�s/"
-            .Replacement.Text = "^pATA n� quarenta e tr�s/^p"
+            .Text = "ATA nº quarenta e três/"
+            .Replacement.Text = "^pATA nº quarenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10334,8 +10328,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e quatro/"
-            .Replacement.Text = "^pATA n� quarenta e quatro/^p"
+            .Text = "ATA nº quarenta e quatro/"
+            .Replacement.Text = "^pATA nº quarenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10347,8 +10341,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e cinco/"
-            .Replacement.Text = "^pATA n� quarenta e cinco/^p"
+            .Text = "ATA nº quarenta e cinco/"
+            .Replacement.Text = "^pATA nº quarenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10360,8 +10354,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e seis/"
-            .Replacement.Text = "^pATA n� quarenta e seis/^p"
+            .Text = "ATA nº quarenta e seis/"
+            .Replacement.Text = "^pATA nº quarenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10373,8 +10367,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e sete/"
-            .Replacement.Text = "^pATA n� quarenta e sete/^p"
+            .Text = "ATA nº quarenta e sete/"
+            .Replacement.Text = "^pATA nº quarenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10386,8 +10380,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e oito/"
-            .Replacement.Text = "^pATA n� quarenta e oito/^p"
+            .Text = "ATA nº quarenta e oito/"
+            .Replacement.Text = "^pATA nº quarenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10399,8 +10393,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� quarenta e nove/"
-            .Replacement.Text = "^pATA n� quarenta e nove/^p"
+            .Text = "ATA nº quarenta e nove/"
+            .Replacement.Text = "^pATA nº quarenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10412,8 +10406,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta/"
-            .Replacement.Text = "^pATA n� cinquenta/^p"
+            .Text = "ATA nº cinquenta/"
+            .Replacement.Text = "^pATA nº cinquenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10425,8 +10419,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e um/"
-            .Replacement.Text = "^pATA n� cinquenta e um/^p"
+            .Text = "ATA nº cinquenta e um/"
+            .Replacement.Text = "^pATA nº cinquenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10438,8 +10432,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e dois/"
-            .Replacement.Text = "^pATA n� cinquenta e dois/^p"
+            .Text = "ATA nº cinquenta e dois/"
+            .Replacement.Text = "^pATA nº cinquenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10451,8 +10445,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e tr�s/"
-            .Replacement.Text = "^pATA n� cinquenta e tr�s/^p"
+            .Text = "ATA nº cinquenta e três/"
+            .Replacement.Text = "^pATA nº cinquenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10464,8 +10458,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e quatro/"
-            .Replacement.Text = "^pATA n� cinquenta e quatro/^p"
+            .Text = "ATA nº cinquenta e quatro/"
+            .Replacement.Text = "^pATA nº cinquenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10477,8 +10471,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e cinco/"
-            .Replacement.Text = "^pATA n� cinquenta e cinco/^p"
+            .Text = "ATA nº cinquenta e cinco/"
+            .Replacement.Text = "^pATA nº cinquenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10490,8 +10484,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e seis/"
-            .Replacement.Text = "^pATA n� cinquenta e seis/^p"
+            .Text = "ATA nº cinquenta e seis/"
+            .Replacement.Text = "^pATA nº cinquenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10503,8 +10497,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e sete/"
-            .Replacement.Text = "^pATA n� cinquenta e sete/^p"
+            .Text = "ATA nº cinquenta e sete/"
+            .Replacement.Text = "^pATA nº cinquenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10516,8 +10510,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e oito/"
-            .Replacement.Text = "^pATA n� cinquenta e oito/^p"
+            .Text = "ATA nº cinquenta e oito/"
+            .Replacement.Text = "^pATA nº cinquenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10529,8 +10523,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� cinquenta e nove/"
-            .Replacement.Text = "^pATA n� cinquenta e nove/^p"
+            .Text = "ATA nº cinquenta e nove/"
+            .Replacement.Text = "^pATA nº cinquenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10542,8 +10536,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta/"
-            .Replacement.Text = "^pATA n� sessenta/^p"
+            .Text = "ATA nº sessenta/"
+            .Replacement.Text = "^pATA nº sessenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10555,8 +10549,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e um/"
-            .Replacement.Text = "^pATA n� sessenta e um/^p"
+            .Text = "ATA nº sessenta e um/"
+            .Replacement.Text = "^pATA nº sessenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10568,8 +10562,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e dois/"
-            .Replacement.Text = "^pATA n� sessenta e dois/^p"
+            .Text = "ATA nº sessenta e dois/"
+            .Replacement.Text = "^pATA nº sessenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10581,8 +10575,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e tr�s/"
-            .Replacement.Text = "^pATA n� sessenta e tr�s/^p"
+            .Text = "ATA nº sessenta e três/"
+            .Replacement.Text = "^pATA nº sessenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10594,8 +10588,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e quatro/"
-            .Replacement.Text = "^pATA n� sessenta e quatro/^p"
+            .Text = "ATA nº sessenta e quatro/"
+            .Replacement.Text = "^pATA nº sessenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10607,8 +10601,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e cinco/"
-            .Replacement.Text = "^pATA n� sessenta e cinco/^p"
+            .Text = "ATA nº sessenta e cinco/"
+            .Replacement.Text = "^pATA nº sessenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10620,8 +10614,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e seis/"
-            .Replacement.Text = "^pATA n� sessenta e seis/^p"
+            .Text = "ATA nº sessenta e seis/"
+            .Replacement.Text = "^pATA nº sessenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10633,8 +10627,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e sete/"
-            .Replacement.Text = "^pATA n� sessenta e sete/^p"
+            .Text = "ATA nº sessenta e sete/"
+            .Replacement.Text = "^pATA nº sessenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10646,8 +10640,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e oito/"
-            .Replacement.Text = "^pATA n� sessenta e oito/^p"
+            .Text = "ATA nº sessenta e oito/"
+            .Replacement.Text = "^pATA nº sessenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10659,8 +10653,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� sessenta e nove/"
-            .Replacement.Text = "^pATA n� sessenta e nove/^p"
+            .Text = "ATA nº sessenta e nove/"
+            .Replacement.Text = "^pATA nº sessenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10672,8 +10666,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta/"
-            .Replacement.Text = "^pATA n� setenta/^p"
+            .Text = "ATA nº setenta/"
+            .Replacement.Text = "^pATA nº setenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10685,8 +10679,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e um/"
-            .Replacement.Text = "^pATA n� setenta e um/^p"
+            .Text = "ATA nº setenta e um/"
+            .Replacement.Text = "^pATA nº setenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10698,8 +10692,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e dois/"
-            .Replacement.Text = "^pATA n� setenta e dois/^p"
+            .Text = "ATA nº setenta e dois/"
+            .Replacement.Text = "^pATA nº setenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10711,8 +10705,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e tr�s/"
-            .Replacement.Text = "^pATA n� setenta e tr�s/^p"
+            .Text = "ATA nº setenta e três/"
+            .Replacement.Text = "^pATA nº setenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10724,8 +10718,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e quatro/"
-            .Replacement.Text = "^pATA n� setenta e quatro/^p"
+            .Text = "ATA nº setenta e quatro/"
+            .Replacement.Text = "^pATA nº setenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10737,8 +10731,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e cinco/"
-            .Replacement.Text = "^pATA n� setenta e cinco/^p"
+            .Text = "ATA nº setenta e cinco/"
+            .Replacement.Text = "^pATA nº setenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10750,8 +10744,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e seis/"
-            .Replacement.Text = "^pATA n� setenta e seis/^p"
+            .Text = "ATA nº setenta e seis/"
+            .Replacement.Text = "^pATA nº setenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10763,8 +10757,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e sete/"
-            .Replacement.Text = "^pATA n� setenta e sete/^p"
+            .Text = "ATA nº setenta e sete/"
+            .Replacement.Text = "^pATA nº setenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10776,8 +10770,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e oito/"
-            .Replacement.Text = "^pATA n� setenta e oito/^p"
+            .Text = "ATA nº setenta e oito/"
+            .Replacement.Text = "^pATA nº setenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10789,8 +10783,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� setenta e nove/"
-            .Replacement.Text = "^pATA n� setenta e nove/^p"
+            .Text = "ATA nº setenta e nove/"
+            .Replacement.Text = "^pATA nº setenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10802,8 +10796,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta/"
-            .Replacement.Text = "^pATA n� oitenta/^p"
+            .Text = "ATA nº oitenta/"
+            .Replacement.Text = "^pATA nº oitenta/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10815,8 +10809,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e um/"
-            .Replacement.Text = "^pATA n� oitenta e um/^p"
+            .Text = "ATA nº oitenta e um/"
+            .Replacement.Text = "^pATA nº oitenta e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10828,8 +10822,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e dois/"
-            .Replacement.Text = "^pATA n� oitenta e dois/^p"
+            .Text = "ATA nº oitenta e dois/"
+            .Replacement.Text = "^pATA nº oitenta e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10841,8 +10835,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e tr�s/"
-            .Replacement.Text = "^pATA n� oitenta e tr�s/^p"
+            .Text = "ATA nº oitenta e três/"
+            .Replacement.Text = "^pATA nº oitenta e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10854,8 +10848,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e quatro/"
-            .Replacement.Text = "^pATA n� oitenta e quatro/^p"
+            .Text = "ATA nº oitenta e quatro/"
+            .Replacement.Text = "^pATA nº oitenta e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10867,8 +10861,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e cinco/"
-            .Replacement.Text = "^pATA n� oitenta e cinco/^p"
+            .Text = "ATA nº oitenta e cinco/"
+            .Replacement.Text = "^pATA nº oitenta e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10880,8 +10874,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e seis/"
-            .Replacement.Text = "^pATA n� oitenta e seis/^p"
+            .Text = "ATA nº oitenta e seis/"
+            .Replacement.Text = "^pATA nº oitenta e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10893,8 +10887,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e sete/"
-            .Replacement.Text = "^pATA n� oitenta e sete/^p"
+            .Text = "ATA nº oitenta e sete/"
+            .Replacement.Text = "^pATA nº oitenta e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10906,8 +10900,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e oito/"
-            .Replacement.Text = "^pATA n� oitenta e oito/^p"
+            .Text = "ATA nº oitenta e oito/"
+            .Replacement.Text = "^pATA nº oitenta e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10919,8 +10913,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� oitenta e nove/"
-            .Replacement.Text = "^pATA n� oitenta e nove/^p"
+            .Text = "ATA nº oitenta e nove/"
+            .Replacement.Text = "^pATA nº oitenta e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10932,8 +10926,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa/"
-            .Replacement.Text = "^pATA n� noventa/^p"
+            .Text = "ATA nº noventa/"
+            .Replacement.Text = "^pATA nº noventa/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10945,8 +10939,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e um/"
-            .Replacement.Text = "^pATA n� noventa e um/^p"
+            .Text = "ATA nº noventa e um/"
+            .Replacement.Text = "^pATA nº noventa e um/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10958,8 +10952,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e dois/"
-            .Replacement.Text = "^pATA n� noventa e dois/^p"
+            .Text = "ATA nº noventa e dois/"
+            .Replacement.Text = "^pATA nº noventa e dois/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10971,8 +10965,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e tr�s/"
-            .Replacement.Text = "^pATA n� noventa e tr�s/^p"
+            .Text = "ATA nº noventa e três/"
+            .Replacement.Text = "^pATA nº noventa e três/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10984,8 +10978,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e quatro/"
-            .Replacement.Text = "^pATA n� noventa e quatro/^p"
+            .Text = "ATA nº noventa e quatro/"
+            .Replacement.Text = "^pATA nº noventa e quatro/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -10997,8 +10991,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e cinco/"
-            .Replacement.Text = "^pATA n� noventa e cinco/^p"
+            .Text = "ATA nº noventa e cinco/"
+            .Replacement.Text = "^pATA nº noventa e cinco/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -11010,8 +11004,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e seis/"
-            .Replacement.Text = "^pATA n� noventa e seis/^p"
+            .Text = "ATA nº noventa e seis/"
+            .Replacement.Text = "^pATA nº noventa e seis/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -11023,8 +11017,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e sete/"
-            .Replacement.Text = "^pATA n� noventa e sete/^p"
+            .Text = "ATA nº noventa e sete/"
+            .Replacement.Text = "^pATA nº noventa e sete/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -11036,8 +11030,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e oito/"
-            .Replacement.Text = "^pATA n� noventa e oito/^p"
+            .Text = "ATA nº noventa e oito/"
+            .Replacement.Text = "^pATA nº noventa e oito/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -11049,8 +11043,8 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
         End With
         Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
-            .Text = "ATA n� noventa e nove/"
-            .Replacement.Text = "^pATA n� noventa e nove/^p"
+            .Text = "ATA nº noventa e nove/"
+            .Replacement.Text = "^pATA nº noventa e nove/^p"
             .Forward = True
             .Wrap = wdFindContinue
             .Format = False
@@ -11064,7 +11058,7 @@ Attribute B_URNA_2.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_2"
 
 
     MsgBox "Parte 2 ok", vbInformation, "Show de bola!"
-
+    
 End Sub
 Sub B_URNA_3()
 Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
@@ -11076,14 +11070,14 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
 
 
 
-        ' QuebraT�tuloSe��es Macro
-        ' Adaptado para as atas de 2017 que dizem comunica��o de lideran�a
+        ' QuebraTítuloSeções Macro
+        ' Adaptado para as atas de 2017 que dizem comunicação de liderança
         '
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "SESS�O PLEN�RIA ORDIN�RIA"
-                .Replacement.Text = "^pSESS�O PLEN�RIA ORDIN�RIA^p"
+                .Text = "SESSÃO PLENÁRIA ORDINÁRIA"
+                .Replacement.Text = "^pSESSÃO PLENÁRIA ORDINÁRIA^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -11097,8 +11091,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "PER�ODO DAS COMUNICA��ES"
-                .Replacement.Text = "^pPER�ODO DAS COMUNICA��ES^p"
+                .Text = "PERÍODO DAS COMUNICAÇÕES"
+                .Replacement.Text = "^pPERÍODO DAS COMUNICAÇÕES^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -11112,8 +11106,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "PER�ODO DAS COMUNICA��ES"
-                .Replacement.Text = "^pPER�ODO DAS COMUNICA��ES^p"
+                .Text = "PERÍODO DAS COMUNICAÇÕES"
+                .Replacement.Text = "^pPERÍODO DAS COMUNICAÇÕES^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -11141,8 +11135,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "COMUNICA��O DE LIDERAN�A"
-                .Replacement.Text = "^pCOMUNICA��O DE LIDERAN�A^p"
+                .Text = "COMUNICAÇÃO DE LIDERANÇA"
+                .Replacement.Text = "^pCOMUNICAÇÃO DE LIDERANÇA^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -11156,8 +11150,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "COMUNICA��O DE LIDERAN�A"
-                .Replacement.Text = "^pCOMUNICA��O DE LIDERAN�A^p"
+                .Text = "COMUNICAÇÃO DE LIDERANÇA"
+                .Replacement.Text = "^pCOMUNICAÇÃO DE LIDERANÇA^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -11171,8 +11165,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
             Selection.Find.ClearFormatting
             Selection.Find.Replacement.ClearFormatting
             With Selection.Find
-                .Text = "COMUNICA��O DE LIDERAN�A"
-                .Replacement.Text = "^pCOMUNICA��O DE LIDERAN�A^p"
+                .Text = "COMUNICAÇÃO DE LIDERANÇA"
+                .Replacement.Text = "^pCOMUNICAÇÃO DE LIDERANÇA^p"
                 .Forward = True
                 .Wrap = wdFindContinue
                 .Format = False
@@ -11184,15 +11178,15 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
             End With
             Selection.Find.Execute Replace:=wdReplaceAll
 
-            ' AtribuiEstiloSe��es Macro
+            ' AtribuiEstiloSeções Macro
             '
             '
                 Selection.Find.ClearFormatting
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 1")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 1")
                 With Selection.Find
-                    .Text = "ATA n�"
-                    .Replacement.Text = "ATA n�"
+                    .Text = "ATA nº"
+                    .Replacement.Text = "ATA nº"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11205,10 +11199,10 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.Execute Replace:=wdReplaceAll
                 Selection.Find.ClearFormatting
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 2")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 2")
                 With Selection.Find
-                    .Text = "SESS�O PLEN�RIA ORDIN�RIA"
-                    .Replacement.Text = "SESS�O PLEN�RIA ORDIN�RIA"
+                    .Text = "SESSÃO PLENÁRIA ORDINÁRIA"
+                    .Replacement.Text = "SESSÃO PLENÁRIA ORDINÁRIA"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11221,10 +11215,10 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.Execute Replace:=wdReplaceAll
                 Selection.Find.ClearFormatting
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 2")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 2")
                 With Selection.Find
-                    .Text = "PER�ODO DAS COMUNICA��ES"
-                    .Replacement.Text = "PER�ODO DAS COMUNICA��ES"
+                    .Text = "PERÍODO DAS COMUNICAÇÕES"
+                    .Replacement.Text = "PERÍODO DAS COMUNICAÇÕES"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11249,8 +11243,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 End With
                 Selection.Find.Execute Replace:=wdReplaceAll
                 With Selection.Find
-                    .Text = "ESPA�O DE LIDERAN�A"
-                    .Replacement.Text = "ESPA�O DE LIDERAN�A"
+                    .Text = "ESPAÇO DE LIDERANÇA"
+                    .Replacement.Text = "ESPAÇO DE LIDERANÇA"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11262,8 +11256,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 End With
                 Selection.Find.Execute Replace:=wdReplaceAll
                 With Selection.Find
-                    .Text = "COMUNICA��O DE LIDERAN�A"
-                    .Replacement.Text = "COMUNICA��O DE LIDERAN�A"
+                    .Text = "COMUNICAÇÃO DE LIDERANÇA"
+                    .Replacement.Text = "COMUNICAÇÃO DE LIDERANÇA"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11277,15 +11271,15 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
 
 
                 ' QuebraLinhasVereadores Macro
-                ' Adicionada Lorena, Jo�o da Silva
+                ' Adicionada Lorena, João da Silva
                 '
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Jo�o da Silva Chaves"
-                    .Replacement.Text = "^pVereadora Jo�o da Silva Chaves^p"
+                    .Text = "Vereador João da Silva Chaves"
+                    .Replacement.Text = "^pVereadora João da Silva Chaves^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11437,8 +11431,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Jo�o Kaus"
-                    .Replacement.Text = "^pVereador Jo�o Kaus^p"
+                    .Text = "Vereador João Kaus"
+                    .Replacement.Text = "^pVereador João Kaus^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11454,8 +11448,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Jo�o Chaves"
-                    .Replacement.Text = "^pVereador Jo�o Chaves^p"
+                    .Text = "Vereador João Chaves"
+                    .Replacement.Text = "^pVereador João Chaves^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11471,8 +11465,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Jo�o Ricardo Vargas"
-                    .Replacement.Text = "^pVereador Jo�o Ricardo Vargas^p"
+                    .Text = "Vereador João Ricardo Vargas"
+                    .Replacement.Text = "^pVereador João Ricardo Vargas^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11658,8 +11652,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Ov�dio Mayer"
-                    .Replacement.Text = "^pVereador Ov�dio Mayer^p"
+                    .Text = "Vereador Ovídio Mayer"
+                    .Replacement.Text = "^pVereador Ovídio Mayer^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11692,8 +11686,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Vanderlei Ara�jo"
-                    .Replacement.Text = "^pVereador Vanderlei Ara�jo^p"
+                    .Text = "Vereador Vanderlei Araújo"
+                    .Replacement.Text = "^pVereador Vanderlei Araújo^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11709,8 +11703,8 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.Replacement.ClearFormatting
                 Selection.Find.Replacement.Font.Bold = True
                 With Selection.Find
-                    .Text = "Vereador Andr� Agne Domingues"
-                    .Replacement.Text = "^pVereador Andr� Agne Domingues^p"
+                    .Text = "Vereador André Agne Domingues"
+                    .Replacement.Text = "^pVereador André Agne Domingues^p"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11741,16 +11735,16 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
 
 
                 ' AtribuiEstiloVereadores Macro
-                ' Adicionada Lorena e Jo�o da Silva
+                ' Adicionada Lorena e João da Silva
                 '
                 '
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Jo�o da Silva Chaves"
-                    .Replacement.Text = "Vereador Jo�o da Silva Chaves"
+                    .Text = "Vereador João da Silva Chaves"
+                    .Replacement.Text = "Vereador João da Silva Chaves"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11764,7 +11758,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Lorena dos Santos"
                     .Replacement.Text = "Vereadora Lorena dos Santos"
@@ -11781,7 +11775,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Adelar Vargas"
                     .Replacement.Text = "Vereador Adelar Vargas"
@@ -11798,7 +11792,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Admar Pozzobom"
                     .Replacement.Text = "Vereador Admar Pozzobom"
@@ -11815,7 +11809,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Alexandre Vargas"
                     .Replacement.Text = "Vereador Alexandre Vargas"
@@ -11832,7 +11826,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Celita da Silva"
                     .Replacement.Text = "Vereadora Celita da Silva"
@@ -11849,7 +11843,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Daniel Diniz"
                     .Replacement.Text = "Vereador Daniel Diniz"
@@ -11866,7 +11860,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Deili Silva"
                     .Replacement.Text = "Vereadora Deili Silva"
@@ -11883,7 +11877,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Francisco Harrisson"
                     .Replacement.Text = "Vereador Francisco Harrisson"
@@ -11900,10 +11894,10 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Jo�o Kaus"
-                    .Replacement.Text = "Vereador Jo�o Kaus"
+                    .Text = "Vereador João Kaus"
+                    .Replacement.Text = "Vereador João Kaus"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11917,10 +11911,10 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Jo�o Chaves"
-                    .Replacement.Text = "Vereador Jo�o Chaves"
+                    .Text = "Vereador João Chaves"
+                    .Replacement.Text = "Vereador João Chaves"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11934,10 +11928,10 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Jo�o Ricardo Vargas"
-                    .Replacement.Text = "Vereador Jo�o Ricardo Vargas"
+                    .Text = "Vereador João Ricardo Vargas"
+                    .Replacement.Text = "Vereador João Ricardo Vargas"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -11951,7 +11945,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Jorge Trindade Soares"
                     .Replacement.Text = "Vereador Jorge Trindade Soares"
@@ -11968,7 +11962,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Juliano Soares"
                     .Replacement.Text = "Vereador Juliano Soares"
@@ -11985,7 +11979,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Leopoldo Ochulaki"
                     .Replacement.Text = "Vereador Leopoldo Ochulaki"
@@ -12002,7 +11996,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Leopoldo Vanderlei Ochulaki"
                     .Replacement.Text = "Vereador Leopoldo Vanderlei Ochulaki"
@@ -12019,7 +12013,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Luci Duartes"
                     .Replacement.Text = "Vereadora Luci Duartes"
@@ -12036,7 +12030,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Luciano Guerra"
                     .Replacement.Text = "Vereador Luciano Guerra"
@@ -12053,7 +12047,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Manoel Badke"
                     .Replacement.Text = "Vereador Manoel Badke"
@@ -12070,7 +12064,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Maria Aparecida Brizola"
                     .Replacement.Text = "Vereadora Maria Aparecida Brizola"
@@ -12087,7 +12081,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Marion Mortari"
                     .Replacement.Text = "Vereador Marion Mortari"
@@ -12104,7 +12098,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereadora Marta Zanella"
                     .Replacement.Text = "Vereadora Marta Zanella"
@@ -12121,10 +12115,10 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Ov�dio Mayer"
-                    .Replacement.Text = "Vereador Ov�dio Mayer"
+                    .Text = "Vereador Ovídio Mayer"
+                    .Replacement.Text = "Vereador Ovídio Mayer"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -12138,7 +12132,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Valdir Oliveira"
                     .Replacement.Text = "Vereador Valdir Oliveira"
@@ -12155,10 +12149,10 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Vanderlei Ara�jo"
-                    .Replacement.Text = "Vereador Vanderlei Ara�jo"
+                    .Text = "Vereador Vanderlei Araújo"
+                    .Replacement.Text = "Vereador Vanderlei Araújo"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -12172,10 +12166,10 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
-                    .Text = "Vereador Andr� Agne Domingues"
-                    .Replacement.Text = "Vereador Andr� Agne Domingues"
+                    .Text = "Vereador André Agne Domingues"
+                    .Replacement.Text = "Vereador André Agne Domingues"
                     .Forward = True
                     .Wrap = wdFindContinue
                     .Format = True
@@ -12189,7 +12183,7 @@ Attribute B_URNA_3.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.B_URNA_3"
                 Selection.Find.ClearFormatting
                 Selection.Find.Font.Bold = True
                 Selection.Find.Replacement.ClearFormatting
-                Selection.Find.Replacement.Style = ActiveDocument.Styles("T�tulo 3")
+                Selection.Find.Replacement.Style = ActiveDocument.Styles("Título 3")
                 With Selection.Find
                     .Text = "Vereador Cezar Gehm"
                     .Replacement.Text = "Vereador Cezar Gehm"
@@ -12216,7 +12210,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
 '
          With Selection.Find
         .Text = "Cel Vargas "
-        .Replacement.Text = "Jo�o Ricardo Vargas "
+        .Replacement.Text = "João Ricardo Vargas "
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -12229,7 +12223,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     Selection.Find.Execute Replace:=wdReplaceAll
          With Selection.Find
         .Text = "Cel. Vargas "
-        .Replacement.Text = "Jo�o Ricardo Vargas "
+        .Replacement.Text = "João Ricardo Vargas "
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -12306,7 +12300,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
          With Selection.Find
-        .Text = "Jorj�o "
+        .Text = "Jorjão "
         .Replacement.Text = "Jorge Trindade Soares "
         .Forward = True
         .Wrap = wdFindContinue
@@ -12345,7 +12339,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
-        .Text = "Alem�o do G�s "
+        .Text = "Alemão do Gás "
         .Replacement.Text = "Leopoldo Vanderlei Ochulaki "
         .Forward = True
         .Wrap = wdFindContinue
@@ -12357,11 +12351,11 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
         .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
-
-
-
-
-
+    
+    
+    
+    
+    
         With Selection.Find
         .Text = "Silva Silva"
         .Replacement.Text = "Silva"
@@ -12414,16 +12408,16 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
         .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
-
-
-
-
-
+    
+    
+    
+    
+    
     Selection.Find.ClearFormatting
     Selection.Find.Replacement.ClearFormatting
     With Selection.Find
-        .Text = "PER�ODO DA COMUNICA��O"
-        .Replacement.Text = "PER�ODO DAS COMUNICA��ES"
+        .Text = "PERÍODO DA COMUNICAÇÃO"
+        .Replacement.Text = "PERÍODO DAS COMUNICAÇÕES"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -12436,7 +12430,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
         .Text = "Vereador Dr. Ovidio "
-        .Replacement.Text = "Vereador Ov�dio Mayer "
+        .Replacement.Text = "Vereador Ovídio Mayer "
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -12447,7 +12441,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
         .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
-
+    
      With Selection.Find
         .Text = "Vanderley "
         .Replacement.Text = "Vanderlei "
@@ -12463,7 +12457,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     Selection.Find.Execute Replace:=wdReplaceAll
          With Selection.Find
         .Text = "Ovido "
-        .Replacement.Text = "Ov�dio Mayer "
+        .Replacement.Text = "Ovídio Mayer "
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -12476,7 +12470,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     Selection.Find.Execute Replace:=wdReplaceAll
          With Selection.Find
         .Text = "Ovidio "
-        .Replacement.Text = "Ov�dio Mayer "
+        .Replacement.Text = "Ovídio Mayer "
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -12514,7 +12508,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
          With Selection.Find
-        .Text = "Vereadora Dr� Cida Brizola "
+        .Text = "Vereadora Drª Cida Brizola "
         .Replacement.Text = "Vereadora Maria Aparecida Brizola "
         .Forward = True
         .Wrap = wdFindContinue
@@ -12567,7 +12561,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     Selection.Find.Execute Replace:=wdReplaceAll
          With Selection.Find
         .Text = "Vereador Coronel Vargas "
-        .Replacement.Text = "Vereador Jo�o Ricardo Vargas "
+        .Replacement.Text = "Vereador João Ricardo Vargas "
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -12618,7 +12612,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
          With Selection.Find
-        .Text = "Vereadora Prof� Luci Tia da Moto "
+        .Text = "Vereadora Profª Luci Tia da Moto "
         .Replacement.Text = "Vereadora Luci Duartes "
         .Forward = True
         .Wrap = wdFindContinue
@@ -12631,7 +12625,7 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
          With Selection.Find
-        .Text = "Vereadora Prof� Celita da Silva "
+        .Text = "Vereadora Profª Celita da Silva "
         .Replacement.Text = "Vereadora Celita da Silva "
         .Forward = True
         .Wrap = wdFindContinue
@@ -12670,9 +12664,9 @@ Attribute B_URNA_2B_AdequarAtasDe2017.VB_ProcData.VB_Invoke_Func = "Normal.NewMa
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
 
-
-
+    
+    
         MsgBox "Parte 2B ok", vbInformation, "Show de bola!"
-
-
+        
+        
 End Sub
