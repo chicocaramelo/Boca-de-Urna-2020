@@ -5,4 +5,4 @@ Os macros apenas auxiliam, não são perfeitos e muitos dados variam muito nas a
 
 Os macros B_URNA_1, B_URNA_2, B_URNA_2A_LimparBocaDeUrna2020, B_URNA_2B_AdequarAtasDe2017, B_URNA_3 devem ser aplicados nessa ordem. Em alguns casos, devem ser complementados pelos outros.
 
-Entre um macro e outro devem ser feitos ajustes que escapam aos macros.
+Entre um macro e outro devem ser feitos ajustes utilizando as ferramentas Localizar Avançado e Substituir, alguns detalhes que escapam aos macros.
